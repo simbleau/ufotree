@@ -1,0 +1,8 @@
+[package]
+name = "ufotree"
+author = ["Spencer C. Imbleau", "Sebastian Hamel"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
