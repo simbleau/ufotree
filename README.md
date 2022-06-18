@@ -13,7 +13,7 @@ Represent .ufo or .ufoz packages as a read-only tree.
 Currently you have to import the library locally, as there is no official release.
 
 ```toml
-ufotree = { path="/path/to/ufotree }
+ufotree = { path="/path/to/ufotree" }
 ```
 
 There are several examples in the [`examples`](examples) folder to help assist you. You may [file an issue](https://github.com/simbleau/ufo-tree/issues/new) if you need help.
