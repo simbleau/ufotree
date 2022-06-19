@@ -3,6 +3,7 @@ use std::path::Path;
 
 mod errors;
 mod models;
+mod parsers;
 
 pub fn parse_ufo<P>(dir_path: P) -> Result<models::UfoTree, errors::ParseError>
 where
