@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1334" format="2">
+  <advance width="682"/>
+  <outline>
+    <contour>
+      <point x="492" y="1469" type="line"/>
+      <point x="356" y="1239" type="line"/>
+      <point x="300" y="1239" type="line"/>
+      <point x="164" y="1469" type="line"/>
+      <point x="251" y="1469" type="line"/>
+      <point x="328" y="1329" type="line"/>
+      <point x="405" y="1469" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 58 values pushed */
+214 2 230 2 246 2 3 4 2 192 3 1 53 3 1 4 3 20 3 36 3 3 3 217 1 233 1 249 1 3 1 6 207 0 1 58 0 1 11 0 27 0 43 0 3 0 64 5 0 224 3 240 3 2 3 128 5 2
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[11101]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[00000]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+RTHG[ ]	/* RoundToHalfGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[01101]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[01101]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w682l492+1469l356+1239l300+1239l164+1469l251+1469l328+1329l405+1469|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

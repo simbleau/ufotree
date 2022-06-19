@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="betdagesh" format="2">
+  <advance width="1110"/>
+  <unicode hex="FB31"/>
+  <outline>
+    <component base="bet" identifier="component0"/>
+    <component base="dagesh" xOffset="8" yOffset="-20" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 19 values pushed */
+1 0 29 16 29 32 29 96 29 4 0 29 22 15 15 65 1 1 19
+PUSHW[ ]	/* 2 values pushed */
+735 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0feb7b5fbf96539eb564ff2353d5b27e996ee15df322b0767a5fa262d5b937b15124cd5b21a1a28b979cdd0632d8b1f05c9599e596cafed7ca789dbe794741fd</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

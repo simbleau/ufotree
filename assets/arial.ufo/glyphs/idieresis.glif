@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresis" format="2">
+  <advance width="569"/>
+  <unicode hex="00EF"/>
+  <outline>
+    <component base="dotlessi" identifier="component0"/>
+    <component base="dieresis" xOffset="-52" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 17 values pushed */
+2 1 8 32 11 11 6 85 8 2 0 72 43 1 2 2 11
+PUSHW[ ]	/* 2 values pushed */
+546 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>05fd7461f33e9b2afdb53e0fec930578d70050e0b57f3632eb0950a77383a8579c27a67e5675d7db50ebf80e176e788b660da1d9770aca9b4897e7f84379fb4f</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

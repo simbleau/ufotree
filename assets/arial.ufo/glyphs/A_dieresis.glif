@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Adieresis" format="2">
+  <advance width="1366"/>
+  <unicode hex="00C4"/>
+  <outline>
+    <component base="A" identifier="component0"/>
+    <component base="dieresis" xOffset="318" yOffset="286" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+3 2 2 3 2 22
+PUSHW[ ]	/* 3 values pushed */
+545 41 356
+SCANCTRL[ ]	/* ScanConversionControl */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  PUSHB[ ]	/* 6 values pushed */
+  0 15 22 1 2 65
+  CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+  NPUSHB[ ]	/* 10 values pushed */
+  20 64 18 20 52 20 12 100 72 43
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8a98ff9828417a338ff2e08277bacb010f91cef1fb3b3d8b7c3f174d39328f7268adf0e2d097366bbfc54b11527960dd38e36a86228ff9b11923b3ce7a8a547d</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odieresis" format="2">
+  <advance width="1593"/>
+  <unicode hex="00D6"/>
+  <outline>
+    <component base="O" identifier="component0"/>
+    <component base="dieresis" xOffset="455" yOffset="286" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+3 2 2 3 2 35
+PUSHW[ ]	/* 2 values pushed */
+545 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  PUSHB[ ]	/* 6 values pushed */
+  0 31 32 3 3 65
+  CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+  PUSHB[ ]	/* 8 values pushed */
+  175 32 1 32 3 100 72 43
+  CALL[ ]	/* CallFunction */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+EIF[ ]	/* EndIf */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>814af5bee3ca4d29f53d5612417acfe82de1f8f27949e2d566ed518f64e484bd3e34ca2b0f1187759c52074f925d610db8fa4c16c3e9d9341dca6837f3990c89</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

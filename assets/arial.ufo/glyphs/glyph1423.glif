@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1423" format="2">
+  <advance width="691"/>
+  <outline>
+    <component base="afii57423" identifier="component0"/>
+    <component base="glyph1330" xOffset="80" yOffset="1600" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+4 3 2 1
+PUSHW[ ]	/* 1 value pushed */
+-41
+NPUSHB[ ]	/* 22 values pushed */
+29 29 18 18 65 4 3 2 1 15 32 96 32 112 32 3 32 64 18 22 52 32
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 9 values pushed */
+14 16 52 32 64 11 12 52 32
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a7c5383f3adf502cebded921e1461ebf32427d419dd35a9748783465ed90a9360252e8c3db01dea7d33b90dbca65dfd5364cbf13912c2a695a5f059851fb0b7a</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

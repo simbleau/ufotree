@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edieresis" format="2">
+  <advance width="1366"/>
+  <unicode hex="00CB"/>
+  <outline>
+    <component base="E" identifier="component0"/>
+    <component base="dieresis" xOffset="364" yOffset="286" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 3 values pushed */
+2 1 14
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 10 values pushed */
+11 12 6 85 14 64 24 28 52 14
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 20 values pushed */
+29 32 52 14 64 15 17 52 160 14 239 14 2 160 14 176 14 2 14 4
+PUSHW[ ]	/* 1 value pushed */
+270
+PUSHB[ ]	/* 6 values pushed */
+72 43 1 2 2 19
+PUSHW[ ]	/* 2 values pushed */
+545 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2a3a642759e637ebd41e21dc1d683f8cb0de44a9843230c22d807d6e8b61dbf70f42e03be3e8e1c130e94823eed6465889ccf79b2414dd5301a1791e165db2fe</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

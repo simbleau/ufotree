@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflexhookabove" format="2">
+  <advance width="1139"/>
+  <unicode hex="1EC3"/>
+  <outline>
+    <component base="e" identifier="component0"/>
+    <component base="circumflex" xOffset="223" identifier="component1"/>
+    <component base="combininghookabove" xOffset="840" identifier="component2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component2</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 9 values pushed */
+3 79 57 127 57 239 57 3 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 48 values pushed */
+18 27 52 0 57 56 33 34 65 2 32 64 59 53 32 64 45 50 52 15 32 159 32 2 0 32 35 10 10 65 2 31 32 47 32 2 240 32 1 95 32 1 32 64 9 12 52 32
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>445fc727a11234ea7868dc935f5618ee74239b2a73ea39fbe0346782882f237a50deb6cc8b3e19bd126e3379e7b0188aae0abb216b3d1828da31773b0db75120</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

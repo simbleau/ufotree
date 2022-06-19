@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1673" format="2">
+  <advance width="1230"/>
+  <outline>
+    <component base="afii62841" identifier="component0"/>
+    <component base="glyph1332" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 5 values pushed */
+3 2 67 3 2
+PUSHW[ ]	/* 1 value pushed */
+-105
+PUSHB[ ]	/* 5 values pushed */
+76 76 16 16 65
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>9014807b7a188044f0913ae1cd9711028bf1e11b24cf6616bbe1125f414f5c93ca509e0e0a4d99587308d5a86c0c62016326648938f53836214ba0c4c4043d4e</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04B3" format="2">
+  <advance width="1024"/>
+  <unicode hex="04B3"/>
+  <outline>
+    <contour>
+      <point x="1009" y="-301" type="line"/>
+      <point x="861" y="-301" type="line"/>
+      <point x="861" y="0" type="line"/>
+      <point x="788" y="0" type="line"/>
+      <point x="512" y="419" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="403" y="552" type="line"/>
+      <point x="44" y="1062" type="line"/>
+      <point x="269" y="1062" type="line"/>
+      <point x="432" y="813" type="line"/>
+      <point x="474" y="749"/>
+      <point x="506" y="694" type="qcurve"/>
+      <point x="541" y="746"/>
+      <point x="587" y="811" type="qcurve"/>
+      <point x="766" y="1062" type="line"/>
+      <point x="981" y="1062" type="line"/>
+      <point x="614" y="562" type="line"/>
+      <point x="906" y="148" type="line"/>
+      <point x="1009" y="148" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 21 values pushed */
+38 17 70 17 134 17 3 38 4 70 4 2 88 7 1 38 17 70 17 2 12
+PUSHW[ ]	/* 1 value pushed */
+-20
+NPUSHB[ ]	/* 11 values pushed */
+11 11 6 85 4 40 13 17 6 85 12
+PUSHW[ ]	/* 1 value pushed */
+-40
+NPUSHB[ ]	/* 40 values pushed */
+13 17 6 85 12 20 11 11 6 85 12 10 13 13 6 85 4 5 16 3 8 17 5 16 18 9 12 6 15 18 9 7 6 15 3 8 3 9 18 9
+PUSHW[ ]	/* 1 value pushed */
+-8
+NPUSHB[ ]	/* 15 values pushed */
+13 17 2 85 9 37 8 3 20 8 8 3 2 37 0
+PUSHW[ ]	/* 1 value pushed */
+-3
+NPUSHB[ ]	/* 29 values pushed */
+12 12 6 85 0 10 13 13 6 85 0 12 15 16 6 85 0 149 18 1 48 18 1 18 16 15 5 16 5
+PUSHW[ ]	/* 1 value pushed */
+-8
+NPUSHB[ ]	/* 30 values pushed */
+13 17 2 85 5 37 6 15 20 6 6 15 95 16 111 16 159 16 3 16 12 6 160 8 1 8 17 7 4 12
+PUSHW[ ]	/* 1 value pushed */
+-10
+PUSHB[ ]	/* 5 values pushed */
+13 13 2 85 12
+PUSHW[ ]	/* 1 value pushed */
+-10
+NPUSHB[ ]	/* 26 values pushed */
+10 10 2 85 32 12 1 12 12 17 7 4 4 5 16 15 8 9 6 18 43 3 6 5 10 1
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[00000]	/* MoveDirectRelPt */
+MDRP[10000]	/* MoveDirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[00000]	/* MoveDirectRelPt */
+MDRP[00000]	/* MoveDirectRelPt */
+MDRP[00000]	/* MoveDirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SVTCA[1]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDRP[11101]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[00110]	/* MoveDirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SDPVTL[1]	/* SetDualPVectorToLine */
+SRP0[ ]	/* SetRefPoint0 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SDPVTL[1]	/* SetDualPVectorToLine */
+RDTG[ ]	/* RoundDownToGrid */
+MDRP[00100]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[10110]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[11101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MIRP[01101]	/* MoveIndirectRelPt */
+SDPVTL[1]	/* SetDualPVectorToLine */
+SRP0[ ]	/* SetRefPoint0 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SDPVTL[1]	/* SetDualPVectorToLine */
+RDTG[ ]	/* RoundDownToGrid */
+MDRP[00100]	/* MoveDirectRelPt */
+ISECT[ ]	/* MovePtToIntersect */
+ISECT[ ]	/* MovePtToIntersect */
+ISECT[ ]	/* MovePtToIntersect */
+ISECT[ ]	/* MovePtToIntersect */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>38c569445c275a8a383e09717cf5971fa61cab2c3f0cedd03c60771b9290745d1fb34b5c6401ae25d62fd8ba6753cde9685ca7c2d36dbd1e6d959ac109d8b7e4</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

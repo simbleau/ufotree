@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ntilde" format="2">
+  <advance width="1139"/>
+  <unicode hex="00F1"/>
+  <outline>
+    <component base="n" identifier="component0"/>
+    <component base="tilde" xOffset="255" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+1 1 1 38
+PUSHW[ ]	/* 2 values pushed */
+546 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  PUSHB[ ]	/* 6 values pushed */
+  0 23 35 1 11 65
+  CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  40 -64
+  PUSHB[ ]	/* 8 values pushed */
+  34 36 52 79 40 1 40 18
+  PUSHW[ ]	/* 1 value pushed */
+  -30
+  PUSHB[ ]	/* 2 values pushed */
+  72 43
+  CALL[ ]	/* CallFunction */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+  CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>52b9ed5b1d94c95e4663549521ddc25b0203a520aed32d2b8137457b8794dcfdba46e5c4d5df486201e95e855ffc176aa65a6bc09c4acfc71e6523f8f22821dd</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

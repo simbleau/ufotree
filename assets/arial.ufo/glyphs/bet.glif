@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bet" format="2">
+  <advance width="1110"/>
+  <unicode hex="05D1"/>
+  <outline>
+    <contour>
+      <point x="896" y="160" type="line"/>
+      <point x="1065" y="160" type="line"/>
+      <point x="1065" y="0" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="50" y="160" type="line"/>
+      <point x="705" y="160" type="line"/>
+      <point x="705" y="522" type="line"/>
+      <point x="705" y="670"/>
+      <point x="639" y="819"/>
+      <point x="466" y="907"/>
+      <point x="283" y="907" type="qcurve"/>
+      <point x="218" y="907"/>
+      <point x="82" y="893" type="qcurve"/>
+      <point x="66" y="1051" type="line"/>
+      <point x="201" y="1073"/>
+      <point x="353" y="1073" type="qcurve"/>
+      <point x="639" y="1073"/>
+      <point x="896" y="825"/>
+      <point x="896" y="573" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 44 values pushed */
+5 16 22 16 84 16 99 16 226 16 5 0 4 249 3 10 12 249 13 12 249 13 13 10 249 15 7 5 32 0 0 1 20 12 12 6 85 1 26 13 13 6 85 1
+PUSHW[ ]	/* 1 value pushed */
+-16
+NPUSHB[ ]	/* 11 values pushed */
+15 15 6 85 1 8 16 16 6 85 1
+PUSHW[ ]	/* 1 value pushed */
+716
+PUSHB[ ]	/* 5 values pushed */
+20 12 12 13 12
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 6 values pushed */
+13 17 52 12 13 4
+PUSHW[ ]	/* 2 values pushed */
+715 19
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHP[0]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8808188e18cbe57566bd79a6139d04804fdc12da382488550e83d36f7e7fa1ab3561c5a2bd2d51e1ccbd0bb6487d4126410377c3aa95f31743073a1f00c265c0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

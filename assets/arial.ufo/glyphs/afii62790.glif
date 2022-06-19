@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii62790" format="2">
+  <advance width="1733"/>
+  <unicode hex="FEBB"/>
+  <outline>
+    <contour>
+      <point x="1733" y="293" type="line"/>
+      <point x="531" y="293" type="line"/>
+      <point x="477" y="293"/>
+      <point x="428" y="311" type="qcurve"/>
+      <point x="391" y="325"/>
+      <point x="341" y="356" type="qcurve"/>
+      <point x="299" y="320"/>
+      <point x="215" y="293"/>
+      <point x="123" y="293" type="qcurve"/>
+      <point x="-70" y="293" type="line"/>
+      <point x="-70" y="467" type="line"/>
+      <point x="123" y="467" type="line"/>
+      <point x="204" y="467"/>
+      <point x="239" y="481" type="qcurve"/>
+      <point x="297" y="504"/>
+      <point x="297" y="573" type="qcurve"/>
+      <point x="297" y="602"/>
+      <point x="290" y="661"/>
+      <point x="283" y="696" type="qcurve"/>
+      <point x="324" y="756" type="line"/>
+      <point x="359" y="620"/>
+      <point x="420" y="546" type="qcurve"/>
+      <point x="485" y="467"/>
+      <point x="573" y="467" type="qcurve"/>
+      <point x="657" y="467"/>
+      <point x="770" y="505" type="qcurve"/>
+      <point x="892" y="546"/>
+      <point x="980" y="609" type="qcurve"/>
+      <point x="1123" y="711"/>
+      <point x="1155" y="731" type="qcurve"/>
+      <point x="1236" y="783"/>
+      <point x="1302" y="805" type="qcurve"/>
+      <point x="1376" y="830"/>
+      <point x="1464" y="830" type="qcurve"/>
+      <point x="1600" y="830"/>
+      <point x="1669" y="751" type="qcurve"/>
+      <point x="1733" y="678"/>
+      <point x="1733" y="546" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1570" y="544" type="qcurve"/>
+      <point x="1570" y="593"/>
+      <point x="1448" y="648"/>
+      <point x="1367" y="648" type="qcurve"/>
+      <point x="1267" y="648"/>
+      <point x="1125" y="581" type="qcurve"/>
+      <point x="1012" y="524"/>
+      <point x="900" y="467" type="qcurve"/>
+      <point x="1361" y="467" type="line"/>
+      <point x="1470" y="467"/>
+      <point x="1570" y="505"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 8 values pushed */
+18 19 5 10 9 19 19 33
+PUSHW[ ]	/* 1 value pushed */
+751
+PUSHB[ ]	/* 3 values pushed */
+41 41 45
+PUSHW[ ]	/* 3 values pushed */
+751 23 751
+PUSHB[ ]	/* 3 values pushed */
+1 1 10
+PUSHW[ ]	/* 3 values pushed */
+751 9 747
+PUSHB[ ]	/* 5 values pushed */
+45 5 38 15 18
+PUSHW[ ]	/* 1 value pushed */
+762
+PUSHB[ ]	/* 4 values pushed */
+19 19 9 38
+PUSHW[ ]	/* 3 values pushed */
+764 0 752
+PUSHB[ ]	/* 2 values pushed */
+50 9
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10101]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+RTHG[ ]	/* RoundToHalfGrid */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[10100]	/* MoveIndirectRelPt */
+IP[ ]	/* InterpolatePts */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFPVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>987bb51a6a1d20e45d907408f31a9942f8300a258b3c3e6ddb0a47d03c9e8827fe19e6605d7ebd41550cb27d1c36855113e3b4796a466400882f761ce9bc84f2</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

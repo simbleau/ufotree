@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="combininggraveaccent" format="2">
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-158" y="1547" type="line"/>
+      <point x="-303" y="1547" type="line"/>
+      <point x="-534" y="1827" type="line"/>
+      <point x="-293" y="1827" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+1 32 14 17 52 1
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 31 values pushed */
+9 10 52 1 135 31 2 47 2 2 31 2 47 2 143 2 159 2 4 175 2 191 2 2 2 64 9 16 52 2 0
+PUSHW[ ]	/* 1 value pushed */
+595
+PUSHB[ ]	/* 8 values pushed */
+1 134 64 3 208 3 2 3
+PUSHW[ ]	/* 1 value pushed */
+608
+PUSHB[ ]	/* 6 values pushed */
+112 2 176 2 2 2
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+MIRP[01101]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-158+1547l-303+1547l-534+1827l-293+1827|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

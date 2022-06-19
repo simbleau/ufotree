@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii57399" format="2">
+  <advance width="1077"/>
+  <unicode hex="06F7"/>
+  <unicode hex="0667"/>
+  <outline>
+    <contour>
+      <point x="940" y="1455" type="qcurve"/>
+      <point x="932" y="1168" type="line"/>
+      <point x="784" y="1017"/>
+      <point x="610" y="599"/>
+      <point x="569" y="293" type="qcurve"/>
+      <point x="555" y="293" type="line"/>
+      <point x="491" y="600"/>
+      <point x="292" y="988"/>
+      <point x="129" y="1134" type="qcurve"/>
+      <point x="165" y="1451" type="line"/>
+      <point x="320" y="1270"/>
+      <point x="421" y="1061" type="qcurve"/>
+      <point x="519" y="858"/>
+      <point x="582" y="594" type="qcurve"/>
+      <point x="592" y="594" type="line"/>
+      <point x="631" y="872"/>
+      <point x="720" y="1089" type="qcurve"/>
+      <point x="806" y="1299"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 32 values pushed */
+12 32 14 17 52 3 38 14 17 52 3 52 9 13 52 1 1 0 8 64 14 17 52 8 64 10 17 52 8 8 9 0
+PUSHW[ ]	/* 3 values pushed */
+754 9 754
+PUSHB[ ]	/* 6 values pushed */
+13 32 9 13 52 13
+PUSHW[ ]	/* 3 values pushed */
+767 5 747
+NPUSHB[ ]	/* 11 values pushed */
+14 13 5 8 9 1 0 0 9 4 5
+PUSHW[ ]	/* 1 value pushed */
+327
+SCANCTRL[ ]	/* ScanConversionControl */
+RTHG[ ]	/* RoundToHalfGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SVTCA[0]	/* SetFPVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  NPUSHB[ ]	/* 15 values pushed */
+  13 200 15 17 52 13 150 14 14 52 13 64 9 13 52
+  SVTCA[0]	/* SetFPVectorToAxis */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>11effa5f2e76076df172dd15e90ca174813f71278038967b49ce580bc9b70fc1d755d899b1e37bcd855da7a54dc8a6d3c2e0e8fd2dea482a34f195c02e468cbe</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

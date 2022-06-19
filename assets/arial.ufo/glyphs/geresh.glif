@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="geresh" format="2">
+  <advance width="483"/>
+  <unicode hex="05F3"/>
+  <outline>
+    <contour>
+      <point x="90" y="676" type="line"/>
+      <point x="188" y="1061" type="line"/>
+      <point x="393" y="1061" type="line"/>
+      <point x="211" y="676" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 12 values pushed */
+3 0 0 1 6 2 60 1 100 3 172 0
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[11100]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w483l90+676l188+1061l393+1061l211+676|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

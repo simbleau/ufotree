@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii62964" format="2">
+  <advance width="1910"/>
+  <unicode hex="FB8F"/>
+  <outline>
+    <contour>
+      <point x="468" y="293" type="line"/>
+      <point x="229" y="293"/>
+      <point x="128" y="350" type="qcurve"/>
+      <point x="20" y="411"/>
+      <point x="20" y="558" type="qcurve"/>
+      <point x="20" y="646"/>
+      <point x="67" y="758" type="qcurve"/>
+      <point x="80" y="789"/>
+      <point x="122" y="873" type="qcurve"/>
+      <point x="156" y="853" type="line"/>
+      <point x="122" y="775"/>
+      <point x="101" y="691"/>
+      <point x="101" y="653" type="qcurve"/>
+      <point x="101" y="544"/>
+      <point x="216" y="500" type="qcurve"/>
+      <point x="302" y="467"/>
+      <point x="468" y="467" type="qcurve"/>
+      <point x="894" y="467" type="line"/>
+      <point x="1053" y="467"/>
+      <point x="1161" y="508" type="qcurve"/>
+      <point x="1290" y="557"/>
+      <point x="1290" y="646" type="qcurve"/>
+      <point x="1290" y="713"/>
+      <point x="1241" y="759" type="qcurve"/>
+      <point x="1216" y="783"/>
+      <point x="1144" y="821" type="qcurve"/>
+      <point x="1111" y="790" type="line"/>
+      <point x="993" y="880" type="line"/>
+      <point x="931" y="932"/>
+      <point x="931" y="961" type="qcurve"/>
+      <point x="931" y="1133"/>
+      <point x="1015" y="1231" type="qcurve"/>
+      <point x="1093" y="1321"/>
+      <point x="1284" y="1393" type="qcurve"/>
+      <point x="1566" y="1503" type="line"/>
+      <point x="1566" y="1330" type="line"/>
+      <point x="1357" y="1260" type="line"/>
+      <point x="1186" y="1202"/>
+      <point x="1116" y="1167" type="qcurve"/>
+      <point x="1057" y="1137"/>
+      <point x="1057" y="1119" type="qcurve"/>
+      <point x="1057" y="1096"/>
+      <point x="1121" y="1048" type="qcurve"/>
+      <point x="1161" y="1018"/>
+      <point x="1202" y="988" type="qcurve"/>
+      <point x="1290" y="921"/>
+      <point x="1361" y="856" type="qcurve"/>
+      <point x="1422" y="800"/>
+      <point x="1475" y="740" type="qcurve"/>
+      <point x="1508" y="703"/>
+      <point x="1581" y="613" type="qcurve"/>
+      <point x="1628" y="556"/>
+      <point x="1673" y="518" type="qcurve"/>
+      <point x="1734" y="467"/>
+      <point x="1779" y="467" type="qcurve"/>
+      <point x="1910" y="467" type="line"/>
+      <point x="1910" y="293" type="line"/>
+      <point x="1787" y="293" type="line"/>
+      <point x="1705" y="293"/>
+      <point x="1615" y="377" type="qcurve"/>
+      <point x="1571" y="418"/>
+      <point x="1490" y="523" type="qcurve"/>
+      <point x="1441" y="586"/>
+      <point x="1430" y="599" type="qcurve"/>
+      <point x="1405" y="629"/>
+      <point x="1354" y="678" type="qcurve"/>
+      <point x="1354" y="500"/>
+      <point x="1243" y="400" type="qcurve"/>
+      <point x="1124" y="293"/>
+      <point x="889" y="293" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 2 values pushed */
+42 -42
+PUSHB[ ]	/* 4 values pushed */
+16 17 52 33
+PUSHW[ ]	/* 1 value pushed */
+-16
+PUSHB[ ]	/* 4 values pushed */
+15 17 52 47
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 4 values pushed */
+15 17 52 44
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 4 values pushed */
+15 17 52 48
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 4 values pushed */
+13 17 52 46
+PUSHW[ ]	/* 1 value pushed */
+-32
+NPUSHB[ ]	/* 21 values pushed */
+13 17 52 59 27 107 27 137 61 3 31 32 9 15 52 19 32 15 17 52 14
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 4 values pushed */
+16 17 52 40
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 4 values pushed */
+15 17 52 40
+PUSHW[ ]	/* 1 value pushed */
+-36
+PUSHB[ ]	/* 4 values pushed */
+13 14 52 40
+PUSHW[ ]	/* 1 value pushed */
+-16
+NPUSHB[ ]	/* 11 values pushed */
+10 12 52 65 26 25 29 40 5 16 35
+NPUSHW[ ]	/* 12 values pushed */
+751 34 779 9 8 777 55 16 751 56 0 747
+PUSHB[ ]	/* 4 values pushed */
+25 26 21 29
+PUSHW[ ]	/* 1 value pushed */
+755
+NPUSHB[ ]	/* 13 values pushed */
+15 40 95 40 2 40 40 21 12 35 35 56 21
+PUSHW[ ]	/* 1 value pushed */
+771
+PUSHB[ ]	/* 5 values pushed */
+64 65 65 12 56
+PUSHW[ ]	/* 7 values pushed */
+752 71 9 763 32 8 -64
+PUSHB[ ]	/* 6 values pushed */
+9 11 52 8 8 12
+PUSHW[ ]	/* 3 values pushed */
+771 4 298
+SCANCTRL[ ]	/* ScanConversionControl */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+RTHG[ ]	/* RoundToHalfGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SMD[ ]	/* SetMinimumDistance */
+MIRP[01101]	/* MoveIndirectRelPt */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+IP[ ]	/* InterpolatePts */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>6c2d5c13cb3d80f415e36784ff1f6f772a9f8c68cde0c658b8ea18ee07c2645c09e047a73826e67a89b6890f23ec50abea753796bd0b5970806b1aa1bab4174c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Igrave" format="2">
+  <advance width="569"/>
+  <unicode hex="00CC"/>
+  <outline>
+    <component base="I" identifier="component0"/>
+    <component base="grave" xOffset="-35" yOffset="362" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+1 1 1 5
+PUSHW[ ]	/* 2 values pushed */
+545 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  PUSHB[ ]	/* 6 values pushed */
+  45 4 4 2 2 65
+  CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+  NPUSHB[ ]	/* 15 values pushed */
+  5 64 23 25 52 5 64 34 37 52 32 5 1 5 2
+  PUSHW[ ]	/* 1 value pushed */
+  -90
+  PUSHB[ ]	/* 2 values pushed */
+  72 43
+  CALL[ ]	/* CallFunction */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w569[l191+0l191+1466l385+1466l385+0|(+1+0+0+1+0+0)][l465+1194l320+1194l89+1474l330+1474|(+1+0+0+1-35+362)]</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

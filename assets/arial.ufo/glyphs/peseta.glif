@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peseta" format="2">
+  <advance width="2240"/>
+  <unicode hex="20A7"/>
+  <outline>
+    <contour>
+      <point x="51" y="1466" type="line"/>
+      <point x="513" y="1466" type="line"/>
+      <point x="747" y="1466"/>
+      <point x="870" y="1337" type="qcurve"/>
+      <point x="964" y="1238"/>
+      <point x="977" y="1064" type="qcurve"/>
+      <point x="1069" y="1064" type="line"/>
+      <point x="1069" y="1374" type="line"/>
+      <point x="1251" y="1373" type="line"/>
+      <point x="1251" y="1064" type="line"/>
+      <point x="1571" y="1064" type="line"/>
+      <point x="1656" y="1092"/>
+      <point x="1748" y="1092" type="qcurve"/>
+      <point x="1937" y="1092"/>
+      <point x="2055" y="990" type="qcurve"/>
+      <point x="2150" y="908"/>
+      <point x="2154" y="763" type="qcurve"/>
+      <point x="1967" y="764" type="line"/>
+      <point x="1961" y="847"/>
+      <point x="1857" y="934"/>
+      <point x="1755" y="934" type="qcurve"/>
+      <point x="1653" y="934"/>
+      <point x="1552" y="854"/>
+      <point x="1552" y="808" type="qcurve"/>
+      <point x="1552" y="753"/>
+      <point x="1609" y="717" type="qcurve"/>
+      <point x="1665" y="681"/>
+      <point x="1982" y="605"/>
+      <point x="2121" y="524"/>
+      <point x="2195" y="388"/>
+      <point x="2195" y="313" type="qcurve"/>
+      <point x="2195" y="180"/>
+      <point x="1960" y="-26"/>
+      <point x="1764" y="-26" type="qcurve"/>
+      <point x="1639" y="-26"/>
+      <point x="1481" y="48"/>
+      <point x="1412" y="131" type="qcurve"/>
+      <point x="1411" y="0" type="line"/>
+      <point x="1383" y="-8"/>
+      <point x="1336" y="-16"/>
+      <point x="1318" y="-16" type="qcurve"/>
+      <point x="1171" y="-16"/>
+      <point x="1106" y="62" type="qcurve"/>
+      <point x="1069" y="106"/>
+      <point x="1069" y="208" type="qcurve"/>
+      <point x="1069" y="919" type="line"/>
+      <point x="967" y="919" type="line"/>
+      <point x="936" y="803"/>
+      <point x="792" y="653"/>
+      <point x="678" y="620" type="qcurve"/>
+      <point x="599" y="598"/>
+      <point x="404" y="598" type="qcurve"/>
+      <point x="245" y="598" type="line"/>
+      <point x="245" y="0" type="line"/>
+      <point x="51" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="245" y="1295" type="line"/>
+      <point x="245" y="767" type="line"/>
+      <point x="377" y="767" type="line"/>
+      <point x="537" y="767"/>
+      <point x="691" y="817"/>
+      <point x="779" y="939"/>
+      <point x="779" y="1031" type="qcurve"/>
+      <point x="779" y="1114"/>
+      <point x="707" y="1235"/>
+      <point x="582" y="1295"/>
+      <point x="450" y="1295" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1251" y="919" type="line"/>
+      <point x="1251" y="264" type="line"/>
+      <point x="1250" y="233" type="line"/>
+      <point x="1250" y="195"/>
+      <point x="1296" y="151"/>
+      <point x="1340" y="151" type="qcurve"/>
+      <point x="1352" y="151"/>
+      <point x="1378" y="156"/>
+      <point x="1392" y="161" type="qcurve"/>
+      <point x="1369" y="208"/>
+      <point x="1351" y="284"/>
+      <point x="1350" y="338" type="qcurve"/>
+      <point x="1532" y="337" type="line"/>
+      <point x="1540" y="238"/>
+      <point x="1669" y="127"/>
+      <point x="1777" y="127" type="qcurve"/>
+      <point x="1882" y="127"/>
+      <point x="1958" y="188" type="qcurve"/>
+      <point x="2015" y="234"/>
+      <point x="2015" y="294" type="qcurve"/>
+      <point x="2015" y="340"/>
+      <point x="1980" y="372" type="qcurve"/>
+      <point x="1934" y="414"/>
+      <point x="1597" y="505"/>
+      <point x="1541" y="534" type="qcurve"/>
+      <point x="1455" y="580"/>
+      <point x="1374" y="700"/>
+      <point x="1374" y="778" type="qcurve"/>
+      <point x="1374" y="855"/>
+      <point x="1406" y="918" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 107 values pushed */
+83 4 82 28 102 27 101 28 133 14 138 87 137 89 136 91 154 90 156 91 10 6 28 10 35 5 47 22 28 25 35 21 47 35 27 44 35 52 26 69 25 66 26 74 59 74 63 81 3 85 4 100 3 108 19 100 47 101 48 98 80 118 4 123 19 121 83 123 87 122 91 133 4 143 14 143 19 141 22 133 31 137 59 128 80 140 94 141 95 169 13 184 13 196 13 202 35 196 37 39 26 12 81 88 33 20 36
+PUSHW[ ]	/* 1 value pushed */
+695
+PUSHB[ ]	/* 6 values pushed */
+71 28 40 78 58 77
+PUSHW[ ]	/* 1 value pushed */
+275
+NPUSHB[ ]	/* 19 values pushed */
+40 20 28 12 8 58 7 56 30 52 52 53 55 30 0 0 17 58 16
+PUSHW[ ]	/* 1 value pushed */
+275
+PUSHB[ ]	/* 3 values pushed */
+12 7 95
+PUSHW[ ]	/* 1 value pushed */
+692
+NPUSHB[ ]	/* 57 values pushed */
+46 43 10 5 6 53 10 71 28 40 11 81 28 33 11 61 60 5 46 106 5 106 7 37 229 93 78 39 23 94 93 61 77 36 197 74 56 77 106 68 58 8 37 44 7 32 16 16 2 85 7 8 13 13 2 85 7
+PUSHW[ ]	/* 1 value pushed */
+-8
+NPUSHB[ ]	/* 51 values pushed */
+12 12 2 85 7 7 96 97 16 56 30 17 56 85 94 30 26 97 55 53 186 54 54 0 28 16 16 2 85 0 42 15 15 2 85 0 38 13 13 2 85 0 42 11 12 2 85 0 25 96 97
+PUSHW[ ]	/* 1 value pushed */
+495
+PUSHB[ ]	/* 4 values pushed */
+33 155 104 24
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+MIRP[10100]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+FLIPON[ ]	/* SetAutoFlipOn */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[00101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+MIRP[00110]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00110]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>30ee6a861a3bd0d0aac2627c3bd6237e40c5fcca19ba2c138f122519823769fcd81e28cc202c158cf16125f8bbcd79e141b5a82a192f7b205c5c153dc08bc697</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

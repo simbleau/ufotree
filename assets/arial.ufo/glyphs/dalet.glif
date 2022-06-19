@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalet" format="2">
+  <advance width="1041"/>
+  <unicode hex="05D3"/>
+  <outline>
+    <contour>
+      <point x="996" y="901" type="line"/>
+      <point x="815" y="901" type="line"/>
+      <point x="815" y="0" type="line"/>
+      <point x="625" y="0" type="line"/>
+      <point x="625" y="901" type="line"/>
+      <point x="45" y="901" type="line"/>
+      <point x="45" y="1061" type="line"/>
+      <point x="996" y="1061" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 16 values pushed */
+3 10 1 5 249 6 6 4 32 1 12 11 12 6 85 1
+PUSHW[ ]	/* 1 value pushed */
+-20
+PUSHB[ ]	/* 5 values pushed */
+13 13 6 85 1
+PUSHW[ ]	/* 1 value pushed */
+-4
+NPUSHB[ ]	/* 16 values pushed */
+15 15 6 85 1 10 16 16 6 85 159 1 1 1 160 7
+PUSHW[ ]	/* 1 value pushed */
+716
+PUSHB[ ]	/* 5 values pushed */
+9 48 6 1 6
+PUSHW[ ]	/* 2 values pushed */
+715 8
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1041l996+901l815+901l815+0l625+0l625+901l45+901l45+1061l996+1061|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply" format="2">
+  <advance width="1196"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="161" y="409" type="line"/>
+      <point x="476" y="724" type="line"/>
+      <point x="162" y="1038" type="line"/>
+      <point x="284" y="1160" type="line"/>
+      <point x="598" y="846" type="line"/>
+      <point x="911" y="1159" type="line"/>
+      <point x="1031" y="1038" type="line"/>
+      <point x="719" y="725" type="line"/>
+      <point x="1033" y="411" type="line"/>
+      <point x="911" y="289" type="line"/>
+      <point x="597" y="603" type="line"/>
+      <point x="282" y="288" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+39 4 1 36 4 1
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  NPUSHB[ ]	/* 17 values pushed */
+  11 10 3 17 3 35 3 73 3 85 3 102 3 133 3 7 3
+  SVTCA[0]	/* SetFPVectorToAxis */
+  MDAP[1]	/* MoveDirectAbsPt */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+  SHP[1]	/* ShiftPointByLastPoint */
+  IUP[0]	/* InterpolateUntPts */
+ELSE[ ]	/* Else */
+  PUSHB[ ]	/* 1 value pushed */
+  124
+  MPPEM[ ]	/* MeasurePixelPerEm */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    NPUSHB[ ]	/* 23 values pushed */
+    30 17 10 6 11 2 9 7 6 11 3 8 4 3 8 0 5 1 0 5 2 9 5
+    PUSHW[ ]	/* 4 values pushed */
+    631 6 3 631
+    PUSHB[ ]	/* 4 values pushed */
+    2 7 1 9
+    PUSHW[ ]	/* 4 values pushed */
+    631 8 11 631
+    NPUSHB[ ]	/* 24 values pushed */
+    0 6 2 148 42 1 1 1 148 8 48 0 144 0 2 63 0 80 0 2 0 10 4 8
+    NPUSHW[ ]	/* 10 values pushed */
+    658 9 6 658 5 2 658 3 0 658
+    NPUSHB[ ]	/* 22 values pushed */
+    11 9 5 148 4 148 3 176 11 192 11 2 159 11 1 32 11 1 11 252 12 158
+    PUSHW[ ]	/* 2 values pushed */
+    385 24
+    CALL[ ]	/* CallFunction */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[10110]	/* MoveIndirectRelPt */
+    DELTAP1[ ]	/* DeltaExceptionP1 */
+    DELTAP1[ ]	/* DeltaExceptionP1 */
+    DELTAP1[ ]	/* DeltaExceptionP1 */
+    ALIGNRP[ ]	/* AlignRelativePt */
+    RTHG[ ]	/* RoundToHalfGrid */
+    MIRP[11100]	/* MoveIndirectRelPt */
+    MIRP[11100]	/* MoveIndirectRelPt */
+    ALIGNRP[ ]	/* AlignRelativePt */
+    RTG[ ]	/* RoundToGrid */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    ALIGNRP[ ]	/* AlignRelativePt */
+    SVTCA[0]	/* SetFPVectorToAxis */
+    MDAP[1]	/* MoveDirectAbsPt */
+    DELTAP1[ ]	/* DeltaExceptionP1 */
+    DELTAP2[ ]	/* DeltaExceptionP2 */
+    ALIGNRP[ ]	/* AlignRelativePt */
+    RTHG[ ]	/* RoundToHalfGrid */
+    MIRP[11100]	/* MoveIndirectRelPt */
+    DELTAP1[ ]	/* DeltaExceptionP1 */
+    MIRP[11100]	/* MoveIndirectRelPt */
+    ALIGNRP[ ]	/* AlignRelativePt */
+    RTG[ ]	/* RoundToGrid */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    ALIGNRP[ ]	/* AlignRelativePt */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    SRP0[ ]	/* SetRefPoint0 */
+    MIRP[01100]	/* MoveIndirectRelPt */
+    ISECT[ ]	/* MovePtToIntersect */
+    ISECT[ ]	/* MovePtToIntersect */
+    ISECT[ ]	/* MovePtToIntersect */
+    ISECT[ ]	/* MovePtToIntersect */
+    MPPEM[ ]	/* MeasurePixelPerEm */
+    GTEQ[ ]	/* GreaterThanOrEqual */
+    IF[ ]	/* If */
+      PUSHB[ ]	/* 3 values pushed */
+      6 42 8
+      PUSHW[ ]	/* 7 values pushed */
+      -42 7 -32 3 -32 11 -32
+      NPUSHB[ ]	/* 13 values pushed */
+      1 0 2 3 4 5 6 7 8 9 10 11 11
+      SVTCA[1]	/* SetFPVectorToAxis */
+      SLOOP[ ]	/* SetLoopVariable */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+      SVTCA[0]	/* SetFPVectorToAxis */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+    EIF[ ]	/* EndIf */
+    MPPEM[ ]	/* MeasurePixelPerEm */
+    LTEQ[ ]	/* LessThenOrEqual */
+    IF[ ]	/* If */
+      NPUSHB[ ]	/* 9 values pushed */
+      2 1 10 9 0 4 5 4 7
+      SVTCA[1]	/* SetFPVectorToAxis */
+      SLOOP[ ]	/* SetLoopVariable */
+      SHPIX[ ]	/* ShiftZoneByPixel */
+    EIF[ ]	/* EndIf */
+  EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1196l161+409l476+724l162+1038l284+1160l598+846l911+1159l1031+1038l719+725l1033+411l911+289l597+603l282+288|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflexdotbelow" format="2">
+  <advance width="1139"/>
+  <unicode hex="1ED9"/>
+  <outline>
+    <component base="o" identifier="component0"/>
+    <component base="circumflex" xOffset="224" identifier="component1"/>
+    <component base="uniF02C" xOffset="710" identifier="component2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component2</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 25 values pushed */
+3 0 34 35 11 11 65 2 28 64 46 50 52 159 28 1 0 28 31 0 7 65 2 1 32
+PUSHW[ ]	/* 2 values pushed */
+546 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>bab917a7e0e20e9842f92c51f87f84be3093d9e2a119a0d1b8ab541aade3dfb07043c5690a39d27735f42e10eb6bc6d584bf7bf4ea4c85d2ae57daa260518b4c</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

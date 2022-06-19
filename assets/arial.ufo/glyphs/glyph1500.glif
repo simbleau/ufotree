@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1500" format="2">
+  <advance width="1231"/>
+  <outline>
+    <component base="afii57443" identifier="component0"/>
+    <component base="glyph1325" xOffset="360" yOffset="1452" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 5 values pushed */
+2 16 74 1 74
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 3 values pushed */
+11 14 52
+PUSHW[ ]	/* 1 value pushed */
+-59
+NPUSHB[ ]	/* 42 values pushed */
+74 74 27 27 65 0 26 0 27 16 26 16 27 4 2 15 75 127 75 175 75 191 75 239 75 5 75 64 33 47 52 75 64 11 13 52 75 64 11 17 52 75
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SHC[1]	/* ShiftContourByLastPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ae5ba0d514a455fb4c93eb1d642ef3e75b3d2dc9ea4873af41f7e4a1e9b7498477fe94c72593d32661471dc7df13c88677bbd5b204243bcf327ff09e32286a04</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

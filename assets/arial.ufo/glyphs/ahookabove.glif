@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ahookabove" format="2">
+  <advance width="1139"/>
+  <unicode hex="1EA3"/>
+  <outline>
+    <component base="a" identifier="component0"/>
+    <component base="uniF012" xOffset="820" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+2 76
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 5 values pushed */
+18 18 6 85 76
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 27 values pushed */
+14 16 6 85 144 76 1 112 76 128 76 2 80 76 96 76 160 76 176 76 224 76 240 76 6 76 28
+PUSHW[ ]	/* 1 value pushed */
+-54
+PUSHB[ ]	/* 2 values pushed */
+72 43
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>7c07844a0bf64b53d8314dce26a3bb2894e32f65feca741679b5acb13b0650970f96f2a8240ce16bcb62da1fd0e77f82b89019110a90070a7933a88fec3109c5</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

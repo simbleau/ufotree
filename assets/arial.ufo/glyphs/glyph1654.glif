@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1654" format="2">
+  <advance width="700"/>
+  <outline>
+    <contour>
+      <point x="0" y="287" type="line"/>
+      <point x="0" y="391" type="line"/>
+      <point x="700" y="391" type="line"/>
+      <point x="700" y="287" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+3 5 0 2 100 0
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[00000]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w700l0+287l0+391l700+391l700+287|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

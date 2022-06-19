@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="455"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="124" y="0" type="line"/>
+      <point x="124" y="209" type="line"/>
+      <point x="317" y="209" type="line"/>
+      <point x="317" y="44" type="line"/>
+      <point x="317" y="-90"/>
+      <point x="286" y="-149" type="qcurve"/>
+      <point x="243" y="-230"/>
+      <point x="152" y="-271" type="qcurve"/>
+      <point x="108" y="-200" type="line"/>
+      <point x="162" y="-178"/>
+      <point x="215" y="-83"/>
+      <point x="218" y="0" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 40 values pushed */
+243 8 1 145 8 160 8 2 114 8 132 8 2 3 8 1 210 7 1 180 7 195 7 2 84 7 100 7 2 8 11 3 0 8 171 7 3 249 2 7
+PUSHW[ ]	/* 1 value pushed */
+336
+NPUSHB[ ]	/* 24 values pushed */
+2 1 11 1 60 0 8 3 129 0 7 56 8 39 1 32 0 1 0 25 12 157 121 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+ALIGNRP[ ]	/* AlignRelativePt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDRP[01001]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w455l124+0l124+209l317+209l317+44o317-90q286-149o243-230q152-271l108-200o162-178o215-83q218+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rtblock" format="2">
+  <advance width="1451"/>
+  <unicode hex="2590"/>
+  <outline>
+    <contour>
+      <point x="726" y="-621" type="line"/>
+      <point x="726" y="1864" type="line"/>
+      <point x="1474" y="1864" type="line"/>
+      <point x="1474" y="-621" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1451l726-621l726+1864l1474+1864l1474-621|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

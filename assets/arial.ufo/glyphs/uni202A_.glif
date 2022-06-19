@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni202A" format="2">
+  <unicode hex="202A"/>
+  <outline>
+    <contour>
+      <point x="36" y="1163" type="line"/>
+      <point x="36" y="-275" type="line"/>
+      <point x="-36" y="-275" type="line"/>
+      <point x="-36" y="1234" type="line"/>
+      <point x="431" y="1234" type="line"/>
+      <point x="431" y="1163" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+0 3 2 5 1 2
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[11101]	/* MoveDirectRelPt */
+MDRP[00110]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l36+1163l36-275l-36-275l-36+1234l431+1234l431+1163|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

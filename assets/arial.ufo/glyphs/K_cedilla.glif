@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kcedilla" format="2">
+  <advance width="1366"/>
+  <unicode hex="0136"/>
+  <outline>
+    <component base="K" identifier="component0"/>
+    <component base="undercommaaccent" xOffset="460" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+1 22
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 14 values pushed */
+9 100 6 85 32 22 1 0 22 17 0 5 65 14
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ef67650301cceb865b5d911c57c5091932a1ef93b86010b5f8cdba3a645afa8a2edb4a6f2a25e5d39964168bbab1dc9bc7ea39332d0d6fe3b53c1c1f14cd07bf</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

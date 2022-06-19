@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute" format="2">
+  <advance width="1139"/>
+  <unicode hex="01FB"/>
+  <outline>
+    <component base="aring" identifier="component0"/>
+    <component base="acute" xOffset="271" yOffset="450" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  NPUSHB[ ]	/* 42 values pushed */
+  4 0 80 83 59 59 65 3 2 0 56 62 28 28 65 4 0 83 80 83 240 83 3 47 83 112 83 128 83 3 83 3 2 32 65 128 65 2 128 65 1 65
+  SVTCA[0]	/* SetFPVectorToAxis */
+  MDAP[1]	/* MoveDirectAbsPt */
+  DELTAP2[ ]	/* DeltaExceptionP2 */
+  DELTAP3[ ]	/* DeltaExceptionP3 */
+  SHC[1]	/* ShiftContourByLastPt */
+  SHC[1]	/* ShiftContourByLastPt */
+  MDAP[1]	/* MoveDirectAbsPt */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+  DELTAP2[ ]	/* DeltaExceptionP2 */
+  SHC[1]	/* ShiftContourByLastPt */
+  SVTCA[1]	/* SetFPVectorToAxis */
+  CALL[ ]	/* CallFunction */
+  SHC[1]	/* ShiftContourByLastPt */
+  SHC[1]	/* ShiftContourByLastPt */
+  CALL[ ]	/* CallFunction */
+  SHC[1]	/* ShiftContourByLastPt */
+ELSE[ ]	/* Else */
+  NPUSHB[ ]	/* 44 values pushed */
+  4 80 68 0 72 43 81 82 80 83 128 75 79 52 83 64 96 96 52 83 64 56 56 52 0 83 96 83 143 83 208 83 4 143 83 240 83 2 83 128 56 63 52 83
+  PUSHW[ ]	/* 1 value pushed */
+  -64
+  NPUSHB[ ]	/* 9 values pushed */
+  44 46 52 83 128 41 47 52 83
+  PUSHW[ ]	/* 1 value pushed */
+  -64
+  PUSHB[ ]	/* 4 values pushed */
+  39 40 52 83
+  PUSHW[ ]	/* 1 value pushed */
+  -128
+  PUSHB[ ]	/* 4 values pushed */
+  35 36 52 83
+  PUSHW[ ]	/* 1 value pushed */
+  -64
+  PUSHB[ ]	/* 4 values pushed */
+  31 34 52 83
+  PUSHW[ ]	/* 1 value pushed */
+  -128
+  NPUSHB[ ]	/* 15 values pushed */
+  30 30 52 83 64 21 24 52 83 128 19 20 52 83 28
+  PUSHW[ ]	/* 1 value pushed */
+  320
+  SVTCA[0]	/* SetFPVectorToAxis */
+  SMD[ ]	/* SetMinimumDistance */
+  RTG[ ]	/* RoundToGrid */
+  SRP0[ ]	/* SetRefPoint0 */
+  MDRP[11100]	/* MoveDirectRelPt */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  DELTAP2[ ]	/* DeltaExceptionP2 */
+  DELTAP3[ ]	/* DeltaExceptionP3 */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  MDRP[00100]	/* MoveDirectRelPt */
+  MDRP[10100]	/* MoveDirectRelPt */
+  MDRP[00100]	/* MoveDirectRelPt */
+  IUP[1]	/* InterpolateUntPts */
+  IUP[0]	/* InterpolateUntPts */
+  SVTCA[1]	/* SetFPVectorToAxis */
+  CALL[ ]	/* CallFunction */
+  SHC[1]	/* ShiftContourByLastPt */
+EIF[ ]	/* EndIf */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>deae452c27ae1d425175a6fc172c7cb9d940ddf18ec693d4dc501e5c2e3e9a93af01ca4d0c42d349037849bfff1e62ea8ac93d06e7350eee60eafdd4a54c74d3</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni06B6" format="2">
+  <advance width="1037"/>
+  <unicode hex="06B6"/>
+  <outline>
+    <component base="afii57444" identifier="component0"/>
+    <component base="glyph1325" xOffset="590" yOffset="1690" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 8 values pushed */
+1 0 58 175 58 208 58 3
+PUSHW[ ]	/* 1 value pushed */
+-38
+NPUSHB[ ]	/* 16 values pushed */
+58 58 36 36 65 57 64 65 100 52 56 64 65 100 52 40
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+37 255 52 39
+PUSHW[ ]	/* 1 value pushed */
+-128
+PUSHB[ ]	/* 4 values pushed */
+37 255 52 38
+PUSHW[ ]	/* 1 value pushed */
+-128
+PUSHB[ ]	/* 4 values pushed */
+37 255 52 42
+PUSHW[ ]	/* 1 value pushed */
+-16
+PUSHB[ ]	/* 4 values pushed */
+9 255 52 41
+PUSHW[ ]	/* 1 value pushed */
+-16
+PUSHB[ ]	/* 4 values pushed */
+9 255 52 40
+PUSHW[ ]	/* 1 value pushed */
+-48
+PUSHB[ ]	/* 4 values pushed */
+9 36 52 39
+PUSHW[ ]	/* 1 value pushed */
+-80
+PUSHB[ ]	/* 4 values pushed */
+9 36 52 38
+PUSHW[ ]	/* 1 value pushed */
+-80
+NPUSHB[ ]	/* 37 values pushed */
+11 36 52 0 38 16 38 2 1 16 57 112 57 160 57 176 57 192 57 5 0 57 96 57 112 57 3 111 57 127 57 224 57 240 57 4 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 3 values pushed */
+88 53 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 3 values pushed */
+82 53 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+74 75 52 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+68 71 52 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 3 values pushed */
+65 53 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 3 values pushed */
+60 53 57
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 11 values pushed */
+91 255 52 57 64 11 13 52 57 0 6
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+28 255 52 6
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+SHC[1]	/* ShiftContourByLastPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>78ef3272e46efeeb4390f6781158559e3f72cd66e53b918bd613a3d82d38bf02d088d5f04b2fa01fa97fbab6a997f69473ee1cb60d3734b9ddfe9c9949aab482</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

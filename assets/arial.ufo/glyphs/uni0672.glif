@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0672" format="2">
+  <advance width="424"/>
+  <unicode hex="0672"/>
+  <outline>
+    <component base="afii57415" identifier="component0"/>
+    <component base="glyph1333" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 14 values pushed */
+1 48 33 1 0 33 21 13 16 65 25 16 1 17
+PUSHW[ ]	/* 1 value pushed */
+-100
+PUSHB[ ]	/* 4 values pushed */
+9 16 52 16
+PUSHW[ ]	/* 1 value pushed */
+-100
+PUSHB[ ]	/* 4 values pushed */
+9 16 52 15
+PUSHW[ ]	/* 1 value pushed */
+-100
+PUSHB[ ]	/* 4 values pushed */
+9 16 52 14
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+9 16 52 13
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+9 16 52 16
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+17 28 52 15
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 5 values pushed */
+17 18 52 1 58
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHC[1]	/* ShiftContourByLastPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>842e0263543118598809ff3aca35516c0b4d02cbda75ebc31c3990baf72320bb7978a3efc8a5274528ffcc04b094f1afb585ac0a5c107189d3f089ddfca5c59d</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lefttorightmark" format="2">
+  <unicode hex="200E"/>
+  <outline>
+    <contour>
+      <point x="430" y="1198" type="line"/>
+      <point x="213" y="984" type="line"/>
+      <point x="164" y="1033" type="line"/>
+      <point x="301" y="1163" type="line"/>
+      <point x="35" y="1163" type="line"/>
+      <point x="35" y="-275" type="line"/>
+      <point x="-36" y="-275" type="line"/>
+      <point x="-36" y="1234" type="line"/>
+      <point x="301" y="1234" type="line"/>
+      <point x="164" y="1364" type="line"/>
+      <point x="213" y="1413" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 54 values pushed */
+6 10 229 9 114 8 0 0 3 8 1 229 2 114 3 3 4 171 8 7 0 114 8 5 171 6 6 7 10 229 9 1 229 2 2 9 232 8 8 3 34 40 41 52 3 64 9 11 52 3 165 4 171 7
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[10110]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+RTHG[ ]	/* RoundToHalfGrid */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l430+1198l213+984l164+1033l301+1163l35+1163l35-275l-36-275l-36+1234l301+1234l164+1364l213+1413|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

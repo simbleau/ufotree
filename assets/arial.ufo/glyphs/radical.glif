@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical" format="2">
+  <advance width="1124"/>
+  <unicode hex="221A"/>
+  <outline>
+    <contour>
+      <point x="1050" y="1869" type="line"/>
+      <point x="1124" y="1869" type="line"/>
+      <point x="812" y="-78" type="line"/>
+      <point x="316" y="943" type="line"/>
+      <point x="118" y="852" type="line"/>
+      <point x="84" y="916" type="line"/>
+      <point x="385" y="1067" type="line"/>
+      <point x="790" y="244" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 59 values pushed */
+4 6 20 6 2 0 7 16 7 2 3 6 7 3 4 7 63 2 3 20 2 2 3 7 0 3 4 3 2 4 76 5 6 20 5 5 6 4 5 0 7 7 76 2 1 20 2 2 1 7 6 3 4 5 7 2 0 3 1
+PUSHW[ ]	/* 1 value pushed */
+358
+NPUSHB[ ]	/* 17 values pushed */
+6 6 6 6 8 1 26 9 5 25 8 9 120 33 113 122 24
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[00100]	/* MoveIndirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SFVTL[0]	/* SetFVectorToLine */
+SDPVTL[1]	/* SetDualPVectorToLine */
+MDAP[0]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SFVTCA[1]	/* SetFVectorToAxis */
+RDTG[ ]	/* RoundDownToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[00100]	/* MoveDirectRelPt */
+SFVTL[0]	/* SetFVectorToLine */
+SDPVTL[1]	/* SetDualPVectorToLine */
+MDAP[0]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+CALL[ ]	/* CallFunction */
+SFVTL[0]	/* SetFVectorToLine */
+RDTG[ ]	/* RoundDownToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[00100]	/* MoveDirectRelPt */
+SFVTL[0]	/* SetFVectorToLine */
+SDPVTL[1]	/* SetDualPVectorToLine */
+MDAP[0]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+CALL[ ]	/* CallFunction */
+SFVTL[0]	/* SetFVectorToLine */
+SDPVTL[1]	/* SetDualPVectorToLine */
+RDTG[ ]	/* RoundDownToGrid */
+MDRP[00100]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1124l1050+1869l1124+1869l812-78l316+943l118+852l84+916l385+1067l790+244|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

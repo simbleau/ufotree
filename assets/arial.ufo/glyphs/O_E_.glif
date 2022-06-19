@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OE" format="2">
+  <advance width="2048"/>
+  <unicode hex="0152"/>
+  <outline>
+    <contour>
+      <point x="1983" y="173" type="line"/>
+      <point x="1983" y="0" type="line"/>
+      <point x="1121" y="0" type="line"/>
+      <point x="1121" y="212" type="line"/>
+      <point x="986" y="-25"/>
+      <point x="721" y="-25" type="qcurve"/>
+      <point x="420" y="-25"/>
+      <point x="265" y="207" type="qcurve"/>
+      <point x="129" y="412"/>
+      <point x="129" y="735" type="qcurve"/>
+      <point x="129" y="1057"/>
+      <point x="413" y="1491"/>
+      <point x="721" y="1491" type="qcurve"/>
+      <point x="985" y="1491"/>
+      <point x="1121" y="1268" type="qcurve"/>
+      <point x="1121" y="1466" type="line"/>
+      <point x="1952" y="1466" type="line"/>
+      <point x="1952" y="1293" type="line"/>
+      <point x="1302" y="1293" type="line"/>
+      <point x="1302" y="845" type="line"/>
+      <point x="1901" y="845" type="line"/>
+      <point x="1901" y="673" type="line"/>
+      <point x="1302" y="673" type="line"/>
+      <point x="1302" y="173" type="line"/>
+    </contour>
+    <contour>
+      <point x="720" y="1334" type="qcurve"/>
+      <point x="619" y="1334"/>
+      <point x="427" y="1204"/>
+      <point x="329" y="939"/>
+      <point x="329" y="720" type="qcurve"/>
+      <point x="329" y="417"/>
+      <point x="560" y="131"/>
+      <point x="720" y="131" type="qcurve"/>
+      <point x="881" y="131"/>
+      <point x="1110" y="416"/>
+      <point x="1110" y="745" type="qcurve"/>
+      <point x="1110" y="1051"/>
+      <point x="879" y="1334"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 80 values pushed */
+20 25 20 30 27 32 27 36 4 4 25 4 30 11 32 11 36 4 108 32 110 36 2 101 26 99 30 2 48 25 48 30 2 32 25 32 30 2 121 7 1 5 13 1 231 11 1 183 6 198 11 2 143 3 128 14 2 107 4 1 112 14 1 117 11 115 13 2 126 3 124 4 2 35 32 9 17 2 85 33
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 5 values pushed */
+9 17 2 85 14
+PUSHW[ ]	/* 1 value pushed */
+-4
+NPUSHB[ ]	/* 51 values pushed */
+11 17 2 85 3 22 23 14 18 20 19 30 22 22 21 21 2 15 24 30 12 3 17 18 30 16 15 2 0 23 30 1 2 8 31 30 5 9 34 45 15 2 30 18 23 10 16 16 2 85 23
+PUSHW[ ]	/* 1 value pushed */
+-12
+PUSHB[ ]	/* 5 values pushed */
+15 15 2 85 23
+PUSHW[ ]	/* 1 value pushed */
+-10
+NPUSHB[ ]	/* 11 values pushed */
+13 13 2 85 23 22 12 12 2 85 23
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 5 values pushed */
+11 11 2 85 23
+PUSHW[ ]	/* 1 value pushed */
+-12
+PUSHB[ ]	/* 5 values pushed */
+15 15 6 85 23
+PUSHW[ ]	/* 1 value pushed */
+-12
+NPUSHB[ ]	/* 11 values pushed */
+13 13 6 85 23 18 12 12 6 85 23
+PUSHW[ ]	/* 1 value pushed */
+-8
+NPUSHB[ ]	/* 46 values pushed */
+11 11 6 85 23 48 23 80 23 2 32 23 96 23 2 23 37 38 21 84 17 74 48 0 64 0 2 80 0 96 0 2 32 0 112 0 2 0 26 127 38 1 38 28 38 9
+PUSHW[ ]	/* 1 value pushed */
+-14
+PUSHB[ ]	/* 5 values pushed */
+16 16 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-12
+NPUSHB[ ]	/* 11 values pushed */
+15 15 2 85 9 4 11 11 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-24
+PUSHB[ ]	/* 5 values pushed */
+16 16 6 85 9
+PUSHW[ ]	/* 1 value pushed */
+-9
+NPUSHB[ ]	/* 16 values pushed */
+15 15 6 85 9 4 11 11 6 85 32 9 1 9 25 37
+PUSHW[ ]	/* 1 value pushed */
+307
+PUSHB[ ]	/* 2 values pushed */
+153 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[01101]	/* MoveIndirectRelPt */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[10110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>22b95273a837e0a8c62f6f8095117d19131d90a86092c26a749819b60eab0ceb539326853a6ea1cc0898529981cb7b4d4a951012c96c1d89a34d5aab38808b68</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

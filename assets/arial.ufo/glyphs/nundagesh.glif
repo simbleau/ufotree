@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nundagesh" format="2">
+  <advance width="722"/>
+  <unicode hex="FB40"/>
+  <outline>
+    <component base="nun" identifier="component0"/>
+    <component base="dagesh" xOffset="-158" yOffset="-50" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+1 28
+PUSHW[ ]	/* 1 value pushed */
+-30
+PUSHB[ ]	/* 5 values pushed */
+11 13 6 85 28
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 8 values pushed */
+12 14 52 16 28 144 28 2
+PUSHW[ ]	/* 1 value pushed */
+-22
+PUSHB[ ]	/* 8 values pushed */
+28 21 2 3 65 1 1 18
+PUSHW[ ]	/* 2 values pushed */
+735 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2b7ed8592f6d1332c9770aa0f2588e7c6d091c309d50630ec3cc697791570c222a4b87f4c28cb57cc1f525fda08803071e07c004252a781701beba64d3a3bba0</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

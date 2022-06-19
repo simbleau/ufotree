@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aacute" format="2">
+  <advance width="1366"/>
+  <unicode hex="00C1"/>
+  <outline>
+    <component base="A" identifier="component0"/>
+    <component base="acute" xOffset="319" yOffset="362" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+2 18
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 11 values pushed */
+18 25 52 18 12 0 72 43 2 1 15
+PUSHW[ ]	/* 3 values pushed */
+545 41 356
+SCANCTRL[ ]	/* ScanConversionControl */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>52be8e7cbd540c46b6e05fe96fad76481ea4b1bab0d08812ba4af6cafab088003441b54ec421b3aeda209929929ac4993da438c2f79042bad2b53507da09c338</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

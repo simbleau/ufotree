@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscore" format="2">
+  <advance width="1131"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="-31" y="1566" type="line"/>
+      <point x="-31" y="1695" type="line"/>
+      <point x="1162" y="1695" type="line"/>
+      <point x="1162" y="1566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 13 values pushed */
+2 48 3 3 1 48 0 3 26 5 0 25 4
+PUSHW[ ]	/* 3 values pushed */
+393 398 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[01101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1131l-31+1566l-31+1695l1162+1695l1162+1566|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10095" format="2">
+  <advance width="1045"/>
+  <unicode hex="044D"/>
+  <outline>
+    <component base="afii10101" xScale="-1.0" xOffset="1045" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+0 14
+PUSHW[ ]	/* 1 value pushed */
+-6
+NPUSHB[ ]	/* 11 values pushed */
+16 16 2 85 14 6 15 15 2 85 14
+PUSHW[ ]	/* 1 value pushed */
+-12
+PUSHB[ ]	/* 5 values pushed */
+12 12 2 85 14
+PUSHW[ ]	/* 1 value pushed */
+-2
+NPUSHB[ ]	/* 14 values pushed */
+15 15 6 85 14 6 16 16 6 85 14 14 55 28
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>16f6d57c2d1849fe7b34f4e6f99f5bddce4be184f55f7c954708fbbb3bc87ab4b2a6c5d57672fb712ebad32fd046dd0e5a8bcccb57e3142b11945c9fd83f334a</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

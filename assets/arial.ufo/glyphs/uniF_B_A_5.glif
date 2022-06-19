@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFBA5" format="2">
+  <advance width="768"/>
+  <unicode hex="FBA5"/>
+  <outline>
+    <component base="afii62828" identifier="component0"/>
+    <component base="uni0654" xOffset="60" yOffset="-300" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 8 values pushed */
+2 32 40 144 40 160 40 3
+PUSHW[ ]	/* 1 value pushed */
+-15
+NPUSHB[ ]	/* 64 values pushed */
+40 40 21 21 65 2 143 45 1 15 45 47 45 63 45 95 45 111 45 128 45 159 45 7 45 64 67 53 45 64 53 55 52 45 64 46 47 52 45 64 42 43 52 45 128 32 32 52 45 64 30 35 52 45 64 18 21 52 45 64 11 27 52 45
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2cfa0f5225e909786624ae832f4828b6125b3629644f870cc669cb036e4c3b4d66b275a44034db20f1a57023ab8b20525a9a9418f715eee13d13e937ec385cee</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

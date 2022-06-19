@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="1509"/>
+  <unicode hex="00A9"/>
+  <outline>
+    <contour>
+      <point x="758" y="1491" type="qcurve"/>
+      <point x="948" y="1491"/>
+      <point x="1310" y="1296"/>
+      <point x="1512" y="933"/>
+      <point x="1512" y="736" type="qcurve"/>
+      <point x="1512" y="541"/>
+      <point x="1313" y="181"/>
+      <point x="954" y="-18"/>
+      <point x="758" y="-18" type="qcurve"/>
+      <point x="562" y="-18"/>
+      <point x="203" y="181"/>
+      <point x="3" y="541"/>
+      <point x="3" y="736" type="qcurve"/>
+      <point x="3" y="933"/>
+      <point x="206" y="1296"/>
+      <point x="568" y="1491"/>
+    </contour>
+    <contour>
+      <point x="758" y="1366" type="qcurve"/>
+      <point x="599" y="1366"/>
+      <point x="298" y="1203"/>
+      <point x="128" y="900"/>
+      <point x="128" y="736" type="qcurve"/>
+      <point x="128" y="573"/>
+      <point x="295" y="274"/>
+      <point x="595" y="107"/>
+      <point x="758" y="107" type="qcurve"/>
+      <point x="921" y="107"/>
+      <point x="1221" y="274"/>
+      <point x="1387" y="573"/>
+      <point x="1387" y="736" type="qcurve"/>
+      <point x="1387" y="900"/>
+      <point x="1218" y="1203"/>
+      <point x="916" y="1366"/>
+    </contour>
+    <contour>
+      <point x="1000" y="614" type="qcurve"/>
+      <point x="1123" y="578" type="line"/>
+      <point x="1093" y="453"/>
+      <point x="898" y="304"/>
+      <point x="759" y="304" type="qcurve"/>
+      <point x="583" y="304"/>
+      <point x="363" y="532"/>
+      <point x="363" y="734" type="qcurve"/>
+      <point x="363" y="866"/>
+      <point x="463" y="1061"/>
+      <point x="648" y="1160"/>
+      <point x="767" y="1160" type="qcurve"/>
+      <point x="900" y="1160"/>
+      <point x="1076" y="1033"/>
+      <point x="1108" y="924" type="qcurve"/>
+      <point x="989" y="895" type="line"/>
+      <point x="959" y="969"/>
+      <point x="842" y="1048"/>
+      <point x="763" y="1048" type="qcurve"/>
+      <point x="648" y="1048"/>
+      <point x="499" y="884"/>
+      <point x="499" y="731" type="qcurve"/>
+      <point x="499" y="578"/>
+      <point x="640" y="421"/>
+      <point x="752" y="421" type="qcurve"/>
+      <point x="842" y="421"/>
+      <point x="978" y="525"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 32 values pushed */
+148 18 148 22 155 26 155 30 166 3 168 11 168 13 185 48 212 18 212 22 219 26 219 30 213 51 214 54 14 112 8 32
+PUSHW[ ]	/* 1 value pushed */
+683
+PUSHB[ ]	/* 4 values pushed */
+33 135 36 47
+PUSHW[ ]	/* 1 value pushed */
+683
+PUSHB[ ]	/* 4 values pushed */
+48 46 1 46
+PUSHW[ ]	/* 4 values pushed */
+608 43 56 610
+NPUSHB[ ]	/* 16 values pushed */
+79 36 1 15 36 111 36 127 36 239 36 4 36 148 8 50
+PUSHW[ ]	/* 1 value pushed */
+610
+NPUSHB[ ]	/* 11 values pushed */
+0 43 143 43 255 43 3 43 148 0 24
+PUSHW[ ]	/* 1 value pushed */
+610
+PUSHB[ ]	/* 3 values pushed */
+8 11 16
+PUSHW[ ]	/* 1 value pushed */
+610
+PUSHB[ ]	/* 3 values pushed */
+0 3 47
+PUSHW[ ]	/* 1 value pushed */
+610
+PUSHB[ ]	/* 3 values pushed */
+46 211 32
+PUSHW[ ]	/* 1 value pushed */
+610
+PUSHB[ ]	/* 4 values pushed */
+33 136 4 53
+PUSHW[ ]	/* 6 values pushed */
+610 39 612 12 28 610
+PUSHB[ ]	/* 4 values pushed */
+4 26 60 20
+PUSHW[ ]	/* 1 value pushed */
+610
+PUSHB[ ]	/* 6 values pushed */
+12 25 59 179 122 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[01101]	/* MoveIndirectRelPt */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+RS[ ]	/* ReadStore */
+JROF[ ]	/* JumpRelativeOnFalse */
+NPUSHB[ ]	/* 84 values pushed */
+51 55 37 42 1 31 41 38 18 37 14 38 2 37 30 38 22 38 10 37 6 38 26 37 51 42 53 31 0 55 37 53 31 0 17 15 20 33 0 31 1 28 33 1 23 9 20 33 0 25 7 28 33 1 52 40 50 31 1 54 38 56 31 0 19 13 16 33 1 29 3 16 33 1 21 11 24 33 0 27 5 24 33 0
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPRGON[ ]	/* FlipRangeOn */
+FLIPRGON[ ]	/* FlipRangeOn */
+FLIPRGON[ ]	/* FlipRangeOn */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4cd7c3c4939b5e84cbc536b83137dc16ab4dcd5c0d169f1cf9601d7c22d93f74ab0c38595578c0a851e3c0e1aea06e103c8c1ceb68266672d20e0cc9d568dc38</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

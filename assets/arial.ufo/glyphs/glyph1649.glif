@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1649" format="2">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="404" y="26" type="line"/>
+      <point x="370" y="-44" type="line"/>
+      <point x="268" y="-15" type="line"/>
+      <point x="302" y="55" type="line"/>
+    </contour>
+    <contour>
+      <point x="370" y="-74" type="line"/>
+      <point x="336" y="-144" type="line"/>
+      <point x="234" y="-115" type="line"/>
+      <point x="268" y="-45" type="line"/>
+    </contour>
+    <contour>
+      <point x="245" y="-25" type="line"/>
+      <point x="211" y="-95" type="line"/>
+      <point x="109" y="-66" type="line"/>
+      <point x="143" y="4" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 22 values pushed */
+11 9 10 8 10 64 23 25 52 10 64 38 45 52 10 8 64 7 5 6 4 4
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+23 25 52 4
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 13 values pushed */
+38 45 52 4 64 6 6 8 3 1 2 0 0
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+23 25 52 0
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 25 values pushed */
+38 45 52 0 2 64 2 64 46 67 52 2 64 31 43 52 2 64 18 25 52 2 2 8 8
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+38 67 52 8
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 17 values pushed */
+21 25 52 8 4 6 7 5 5 64 31 35 52 5 7 64 7
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+46 51 52 7
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 35 values pushed */
+26 35 52 15 7 1 52 3 7 7 1 10 8 9 11 9 64 31 35 52 9 11 64 11 64 21 25 52 11 11 2 0 1 3 3
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 5 values pushed */
+31 35 52 3 1
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+SMD[ ]	/* SetMinimumDistance */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SDS[ ]	/* SetDeltaShiftInGState */
+SDB[ ]	/* SetDeltaBaseInGState */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+SMD[ ]	/* SetMinimumDistance */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SVTCA[1]	/* SetFPVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+SMD[ ]	/* SetMinimumDistance */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[01101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SMD[ ]	/* SetMinimumDistance */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w500l404+26l370-44l268-15l302+55|l370-74l336-144l234-115l268-45|l245-25l211-95l109-66l143+4|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

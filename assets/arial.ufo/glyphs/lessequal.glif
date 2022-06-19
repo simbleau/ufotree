@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessequal" format="2">
+  <advance width="1124"/>
+  <unicode hex="2264"/>
+  <outline>
+    <contour>
+      <point x="77" y="762" type="line"/>
+      <point x="77" y="930" type="line"/>
+      <point x="1048" y="1340" type="line"/>
+      <point x="1048" y="1160" type="line"/>
+      <point x="278" y="845" type="line"/>
+      <point x="1048" y="526" type="line"/>
+      <point x="1048" y="347" type="line"/>
+    </contour>
+    <contour>
+      <point x="1046" y="106" type="line"/>
+      <point x="78" y="106" type="line"/>
+      <point x="78" y="273" type="line"/>
+      <point x="1046" y="273" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 22 values pushed */
+142 3 128 5 2 10 9 8 7 4 0 6 5 3 3 12 2 8 7 37 9 10
+PUSHW[ ]	/* 6 values pushed */
+684 5 602 6 3 602
+PUSHB[ ]	/* 3 values pushed */
+2 64 6
+PUSHW[ ]	/* 3 values pushed */
+336 2 336
+NPUSHB[ ]	/* 26 values pushed */
+0 171 1 171 32 4 2 95 0 8 9 58 4 60 1 48 0 160 0 2 0 25 11 113 140 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+ALIGNRP[ ]	/* AlignRelativePt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[10100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RTHG[ ]	/* RoundToHalfGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+RTG[ ]	/* RoundToGrid */
+SMD[ ]	/* SetMinimumDistance */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[10110]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1124l77+762l77+930l1048+1340l1048+1160l278+845l1048+526l1048+347|l1046+106l78+106l78+273l1046+273|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

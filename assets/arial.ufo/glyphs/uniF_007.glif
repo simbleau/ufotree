@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF007" format="2">
+  <unicode hex="F007"/>
+  <outline>
+    <contour>
+      <point x="-674" y="1835" type="line"/>
+      <point x="-448" y="1835" type="line"/>
+      <point x="-679" y="1677" type="line"/>
+      <point x="-809" y="1677" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 2 values pushed */
+2 -32
+PUSHB[ ]	/* 6 values pushed */
+14 17 52 2 128 0
+PUSHW[ ]	/* 3 values pushed */
+791 3 -12
+PUSHB[ ]	/* 4 values pushed */
+9 18 52 3
+PUSHW[ ]	/* 1 value pushed */
+595
+PUSHB[ ]	/* 8 values pushed */
+2 134 79 0 223 0 2 0
+PUSHW[ ]	/* 2 values pushed */
+608 1
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+RDTG[ ]	/* RoundDownToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-674+1835l-448+1835l-679+1677l-809+1677|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

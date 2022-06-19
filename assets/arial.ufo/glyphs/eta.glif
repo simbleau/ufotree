@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta" format="2">
+  <advance width="1139"/>
+  <unicode hex="03B7"/>
+  <outline>
+    <contour>
+      <point x="139" y="0" type="line"/>
+      <point x="139" y="1062" type="line"/>
+      <point x="301" y="1062" type="line"/>
+      <point x="301" y="911" type="line"/>
+      <point x="418" y="1086"/>
+      <point x="639" y="1086" type="qcurve"/>
+      <point x="769" y="1086"/>
+      <point x="945" y="974"/>
+      <point x="1002" y="809"/>
+      <point x="1002" y="653" type="qcurve"/>
+      <point x="1002" y="-407" type="line"/>
+      <point x="822" y="-407" type="line"/>
+      <point x="822" y="646" type="line"/>
+      <point x="822" y="794"/>
+      <point x="718" y="930"/>
+      <point x="599" y="930" type="qcurve"/>
+      <point x="482" y="930"/>
+      <point x="319" y="780"/>
+      <point x="319" y="580" type="qcurve"/>
+      <point x="319" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 87 values pushed */
+114 17 112 21 139 14 130 16 130 17 155 14 172 14 169 17 160 21 187 14 176 21 192 21 212 17 208 21 224 21 255 21 16 240 21 1 6 7 9 17 22 7 37 4 53 4 70 4 217 16 224 3 239 17 9 11 15 0 10 15 28 5 7 2 1 6 17 15 19 11 12 10 12 37 21 64 11 11 2 85 9 24 16 16 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-22
+NPUSHB[ ]	/* 17 values pushed */
+13 13 2 85 9 6 12 12 2 85 9 28 11 11 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-12
+NPUSHB[ ]	/* 11 values pushed */
+11 11 6 85 9 20 16 16 6 85 9
+PUSHW[ ]	/* 1 value pushed */
+-7
+NPUSHB[ ]	/* 11 values pushed */
+13 13 6 85 9 10 15 15 6 85 9
+PUSHW[ ]	/* 1 value pushed */
+-10
+NPUSHB[ ]	/* 26 values pushed */
+12 12 6 85 112 9 160 9 176 9 192 9 255 9 5 9 78 21 3 2 154 18 19 37 1 0
+PUSHW[ ]	/* 1 value pushed */
+-8
+NPUSHB[ ]	/* 17 values pushed */
+16 16 2 85 0 6 11 12 2 85 0 4 11 11 6 85 0
+PUSHW[ ]	/* 1 value pushed */
+-6
+NPUSHB[ ]	/* 17 values pushed */
+15 15 6 85 0 2 12 12 6 85 0 4 13 13 6 85 0
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 21 values pushed */
+51 54 52 240 0 1 0 0 32 0 208 0 224 0 4 0 78 20 17 12 19
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[10100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MIRP[01101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[0]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>13c1fd821bf0f5d148eccb5716d67a85bcd78ac3609ef1a7e84d11d0b3ec7d8f473f319f97b78c15e31ced8f2349d350caadd76f866ffd6a6243482222edfc79</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

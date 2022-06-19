@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde" format="2">
+  <advance width="682"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="7" y="1219" type="line"/>
+      <point x="6" y="1323"/>
+      <point x="64" y="1385" type="qcurve"/>
+      <point x="121" y="1447"/>
+      <point x="210" y="1447" type="qcurve"/>
+      <point x="272" y="1447"/>
+      <point x="379" y="1393" type="qcurve"/>
+      <point x="438" y="1363"/>
+      <point x="473" y="1363" type="qcurve"/>
+      <point x="505" y="1363"/>
+      <point x="539" y="1398"/>
+      <point x="546" y="1450" type="qcurve"/>
+      <point x="676" y="1450" type="line"/>
+      <point x="673" y="1336"/>
+      <point x="564" y="1222"/>
+      <point x="480" y="1222" type="qcurve"/>
+      <point x="417" y="1222"/>
+      <point x="314" y="1278" type="qcurve"/>
+      <point x="247" y="1314"/>
+      <point x="216" y="1314" type="qcurve"/>
+      <point x="182" y="1314"/>
+      <point x="161" y="1290" type="qcurve"/>
+      <point x="139" y="1266"/>
+      <point x="140" y="1219" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 17 values pushed */
+135 14 1 64 8 18 16 7 5 4 11 23 0 58 15 63 8
+PUSHW[ ]	/* 1 value pushed */
+696
+PUSHB[ ]	/* 3 values pushed */
+19 63 4
+PUSHW[ ]	/* 1 value pushed */
+692
+NPUSHB[ ]	/* 25 values pushed */
+12 0 25 23 23 26 12 118 11 129 16 77 17 157 23 118 0 127 24 25 224 33 179 122 24
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+RCVT[ ]	/* ReadCVT */
+NEG[ ]	/* Negate */
+WCVTP[ ]	/* WriteCVTInPixels */
+MIRP[00110]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[00110]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+MIRP[11100]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+RS[ ]	/* ReadStore */
+JROF[ ]	/* JumpRelativeOnFalse */
+NPUSHB[ ]	/* 44 values pushed */
+20 22 9 14 1 3 21 37 2 38 20 3 22 50 0 21 22 2 1 20 3 23 50 0 9 14 11 50 1 21 2 19 50 1 22 1 19 50 1 10 13 8 50 0
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SRP0[ ]	/* SetRefPoint0 */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+ALIGNRP[ ]	/* AlignRelativePt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPRGON[ ]	/* FlipRangeOn */
+FLIPRGON[ ]	/* FlipRangeOn */
+FLIPRGON[ ]	/* FlipRangeOn */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>476b38f6e6d58f7b6d6eb5007bd72c646c46cf96ff879d5ab701891ff5eb29f32dc04e8b5c9ad7397cef110a9470caad2c41e6fb10d6874f588a56a95440272f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

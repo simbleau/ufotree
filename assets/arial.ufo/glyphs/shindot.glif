@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shindot" format="2">
+  <advance width="682"/>
+  <unicode hex="05C1"/>
+  <outline>
+    <contour>
+      <point x="863" y="1351" type="qcurve"/>
+      <point x="904" y="1351"/>
+      <point x="947" y="1298"/>
+      <point x="947" y="1266" type="qcurve"/>
+      <point x="947" y="1244"/>
+      <point x="929" y="1208"/>
+      <point x="890" y="1182"/>
+      <point x="863" y="1182" type="qcurve"/>
+      <point x="828" y="1182"/>
+      <point x="779" y="1231"/>
+      <point x="779" y="1266" type="qcurve"/>
+      <point x="779" y="1307"/>
+      <point x="833" y="1351"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 6 values pushed */
+7 723 0 3 723 10
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w682q863+1351o904+1351o947+1298q947+1266o947+1244o929+1208o890+1182q863+1182o828+1182o779+1231q779+1266o779+1307o833+1351|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

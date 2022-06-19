@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="569"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="191" y="0" type="line"/>
+      <point x="191" y="1466" type="line"/>
+      <point x="385" y="1466" type="line"/>
+      <point x="385" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 6 values pushed */
+1 2 0 8 2 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+56 61 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+51 52 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+45 48 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+40 41 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+35 37 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+29 30 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+24 26 52 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 42 values pushed */
+13 16 52 32 5 144 5 175 5 3 3 32 1 0 0 143 0 160 0 176 0 4 47 0 64 0 80 0 223 0 240 0 5 18 32 0 143 0 144 0 3 5
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 11 values pushed */
+13 13 2 85 0 24 16 16 2 85 0
+PUSHW[ ]	/* 1 value pushed */
+-20
+PUSHB[ ]	/* 5 values pushed */
+15 15 2 85 0
+PUSHW[ ]	/* 1 value pushed */
+-18
+PUSHB[ ]	/* 5 values pushed */
+13 13 2 85 0
+PUSHW[ ]	/* 1 value pushed */
+-10
+NPUSHB[ ]	/* 16 values pushed */
+12 12 2 85 0 32 11 11 6 85 0 162 4 214 89 24
+CALL[ ]	/* CallFunction */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+RS[ ]	/* ReadStore */
+NOT[ ]	/* LogicalNot */
+IF[ ]	/* If */
+  PUSHB[ ]	/* 3 values pushed */
+  128 0 1
+  SVTCA[1]	/* SetFPVectorToAxis */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+EIF[ ]	/* EndIf */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w569l191+0l191+1466l385+1466l385+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

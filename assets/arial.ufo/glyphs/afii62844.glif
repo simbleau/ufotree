@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii62844" format="2">
+  <advance width="1077"/>
+  <unicode hex="06F5"/>
+  <outline>
+    <contour>
+      <point x="430" y="1231" type="line"/>
+      <point x="496" y="1450" type="line"/>
+      <point x="706" y="1241"/>
+      <point x="811" y="1033" type="qcurve"/>
+      <point x="903" y="851"/>
+      <point x="903" y="700" type="qcurve"/>
+      <point x="903" y="580"/>
+      <point x="838" y="475" type="qcurve"/>
+      <point x="764" y="356"/>
+      <point x="657" y="356" type="qcurve"/>
+      <point x="629" y="356"/>
+      <point x="581" y="370"/>
+      <point x="553" y="393" type="qcurve"/>
+      <point x="509" y="356"/>
+      <point x="420" y="326"/>
+      <point x="373" y="326" type="qcurve"/>
+      <point x="278" y="326"/>
+      <point x="217" y="378" type="qcurve"/>
+      <point x="152" y="433"/>
+      <point x="152" y="528" type="qcurve"/>
+      <point x="152" y="641"/>
+      <point x="314" y="926"/>
+      <point x="510" y="1154" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="590" y="598" type="qcurve"/>
+      <point x="612" y="575"/>
+      <point x="689" y="543"/>
+      <point x="729" y="543" type="qcurve"/>
+      <point x="777" y="543"/>
+      <point x="842" y="594"/>
+      <point x="842" y="633" type="qcurve"/>
+      <point x="842" y="707"/>
+      <point x="755" y="842" type="qcurve"/>
+      <point x="675" y="966"/>
+      <point x="534" y="1124" type="qcurve"/>
+      <point x="493" y="1081"/>
+      <point x="445" y="1014" type="qcurve"/>
+      <point x="381" y="925"/>
+      <point x="342" y="843" type="qcurve"/>
+      <point x="293" y="740"/>
+      <point x="293" y="666" type="qcurve"/>
+      <point x="293" y="602"/>
+      <point x="361" y="528"/>
+      <point x="422" y="528" type="qcurve"/>
+      <point x="465" y="528"/>
+      <point x="536" y="556"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 25 values pushed */
+35 32 11 17 52 31 32 11 17 52 23 33 22 3 0 26 12 42 9 0 64 14 17 52 0
+PUSHW[ ]	/* 5 values pushed */
+767 1 754 26 767
+PUSHB[ ]	/* 3 values pushed */
+9 9 42
+PUSHW[ ]	/* 3 values pushed */
+767 15 747
+NPUSHB[ ]	/* 16 values pushed */
+23 12 33 22 42 11 17 52 22 22 29 0 1 1 19 29
+PUSHW[ ]	/* 1 value pushed */
+766
+PUSHB[ ]	/* 4 values pushed */
+5 5 46 39
+PUSHW[ ]	/* 3 values pushed */
+764 19 300
+SCANCTRL[ ]	/* ScanConversionControl */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+RTHG[ ]	/* RoundToHalfGrid */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SHP[1]	/* ShiftPointByLastPoint */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFPVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>6524c3877540dfcdbc41a127e063288a2458a96bf277f4d5e0848eb1602896978c90da604ba711dfc5cda9cf9d6e03422ae8430053a6fef3b7a98d1b3425784f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

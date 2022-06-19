@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij" format="2">
+  <advance width="909"/>
+  <unicode hex="0133"/>
+  <outline>
+    <component base="i" identifier="component0"/>
+    <component base="j" xOffset="478" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 15 values pushed */
+3 2 28 64 12 12 2 85 28 64 9 10 2 85 19
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 5 values pushed */
+12 13 2 85 19
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 5 values pushed */
+11 11 2 85 19
+PUSHW[ ]	/* 1 value pushed */
+-4
+PUSHB[ ]	/* 5 values pushed */
+16 16 6 85 19
+PUSHW[ ]	/* 1 value pushed */
+-6
+PUSHB[ ]	/* 5 values pushed */
+13 13 6 85 19
+PUSHW[ ]	/* 1 value pushed */
+-50
+NPUSHB[ ]	/* 24 values pushed */
+11 12 6 85 96 19 112 19 2 31 19 48 19 111 19 144 19 160 19 224 19 6 19 7
+PUSHW[ ]	/* 1 value pushed */
+300
+PUSHB[ ]	/* 5 values pushed */
+72 43 1 0 4
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 5 values pushed */
+12 13 2 85 4
+PUSHW[ ]	/* 1 value pushed */
+-4
+PUSHB[ ]	/* 5 values pushed */
+16 16 6 85 4
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 5 values pushed */
+15 15 6 85 4
+PUSHW[ ]	/* 1 value pushed */
+-6
+NPUSHB[ ]	/* 20 values pushed */
+11 13 6 85 0 4 16 4 32 4 127 4 143 4 5 4 27 136 72 43
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>3ae73babf360fa92c0c34fe170908161c82b8b4bdba430b0ff479e2fb2d4dc2e35f6baef81ec9adf32f2d0c216a9619c809aaad7c548e1a218a1dd6c403833dd</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

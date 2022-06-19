@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii57388" format="2">
+  <advance width="653"/>
+  <unicode hex="066C"/>
+  <unicode hex="060C"/>
+  <outline>
+    <contour>
+      <point x="493" y="417" type="qcurve"/>
+      <point x="493" y="364"/>
+      <point x="413" y="280"/>
+      <point x="350" y="280" type="qcurve"/>
+      <point x="273" y="280"/>
+      <point x="171" y="424"/>
+      <point x="171" y="531" type="qcurve"/>
+      <point x="171" y="680"/>
+      <point x="259" y="792" type="qcurve"/>
+      <point x="302" y="847"/>
+      <point x="388" y="908" type="qcurve"/>
+      <point x="421" y="853" type="line"/>
+      <point x="362" y="799"/>
+      <point x="331" y="759" type="qcurve"/>
+      <point x="276" y="688"/>
+      <point x="276" y="634" type="qcurve"/>
+      <point x="276" y="580"/>
+      <point x="493" y="532"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+11 10
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+15 17 52 10
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 6 values pushed */
+12 17 52 10 10 3
+PUSHW[ ]	/* 1 value pushed */
+748
+PUSHB[ ]	/* 8 values pushed */
+11 10 10 0 15 15 6 0
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 6 values pushed */
+16 17 52 0 0 6
+PUSHW[ ]	/* 1 value pushed */
+284
+SCANCTRL[ ]	/* ScanConversionControl */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e0783870ecccbf2379d7c12b4f6215cbbcd0d819a462856de08ee18c0b0843431d398c2734294ee3e0f71e5df9f473a67076606d5bee9f563246c08d86961260</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

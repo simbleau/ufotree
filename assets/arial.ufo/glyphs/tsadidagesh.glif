@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tsadidagesh" format="2">
+  <advance width="980"/>
+  <unicode hex="FB46"/>
+  <outline>
+    <component base="tsadi" identifier="component0"/>
+    <component base="dagesh" xOffset="-155" yOffset="-115" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 8 values pushed */
+1 28 18 11 12 6 85 28
+PUSHW[ ]	/* 1 value pushed */
+-18
+NPUSHB[ ]	/* 16 values pushed */
+13 13 6 85 0 28 28 9 9 65 71 11 1 1 1 18
+PUSHW[ ]	/* 2 values pushed */
+737 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b5a52d14c5b3abe0b99a2645bc16961752bedb8c186f3af2b1f6fcd845c9d0ef9ff3bd7300ea90784c368743be6b4d1be0aa1dafdae1e5e771e84eaa5fbc33c5</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

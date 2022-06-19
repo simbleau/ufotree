@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="house" format="2">
+  <advance width="1237"/>
+  <unicode hex="2302"/>
+  <outline>
+    <contour>
+      <point x="157" y="0" type="line"/>
+      <point x="157" y="634" type="line"/>
+      <point x="618" y="1153" type="line"/>
+      <point x="1080" y="634" type="line"/>
+      <point x="1080" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="238" y="81" type="line"/>
+      <point x="999" y="81" type="line"/>
+      <point x="999" y="600" type="line"/>
+      <point x="618" y="1027" type="line"/>
+      <point x="238" y="600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1237l157+0l157+634l618+1153l1080+634l1080+0|l238+81l999+81l999+600l618+1027l238+600|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

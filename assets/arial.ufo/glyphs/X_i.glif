@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xi" format="2">
+  <advance width="1331"/>
+  <unicode hex="039E"/>
+  <outline>
+    <contour>
+      <point x="136" y="1466" type="line"/>
+      <point x="1195" y="1466" type="line"/>
+      <point x="1195" y="1293" type="line"/>
+      <point x="136" y="1293" type="line"/>
+    </contour>
+    <contour>
+      <point x="230" y="819" type="line"/>
+      <point x="1101" y="819" type="line"/>
+      <point x="1101" y="647" type="line"/>
+      <point x="230" y="647" type="line"/>
+    </contour>
+    <contour>
+      <point x="109" y="173" type="line"/>
+      <point x="1222" y="173" type="line"/>
+      <point x="1222" y="0" type="line"/>
+      <point x="109" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 39 values pushed */
+5 30 31 7 1 79 7 95 7 127 7 143 7 4 7 7 0 9 30 11 8 2 30 0 2 6 156 1 98 10 86 13 7 156 0 98 11 86 12
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1331l136+1466l1195+1466l1195+1293l136+1293|l230+819l1101+819l1101+647l230+647|l109+173l1222+173l1222+0l109+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii57456" format="2">
+  <advance width="412"/>
+  <unicode hex="0650"/>
+  <outline>
+    <contour>
+      <point x="412" y="164" type="qcurve"/>
+      <point x="412" y="116"/>
+      <point x="360" y="72" type="qcurve"/>
+      <point x="270" y="37"/>
+      <point x="70" y="-43" type="qcurve"/>
+      <point x="70" y="0"/>
+      <point x="114" y="40" type="qcurve"/>
+      <point x="197" y="74"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 2 values pushed */
+0 757
+PUSHB[ ]	/* 3 values pushed */
+2 2 6
+PUSHW[ ]	/* 3 values pushed */
+757 4 760
+PUSHB[ ]	/* 3 values pushed */
+0 0 4
+PUSHW[ ]	/* 1 value pushed */
+292
+SCANCTRL[ ]	/* ScanConversionControl */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w412q412+164o412+116q360+72o270+37q70-43o70+0q114+40o197+74|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

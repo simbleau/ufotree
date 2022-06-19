@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1147" format="2">
+  <outline>
+    <contour>
+      <point x="-252" y="1571" type="qcurve"/>
+      <point x="-282" y="1601"/>
+      <point x="-299" y="1638" type="qcurve"/>
+      <point x="-221" y="1638" type="line"/>
+      <point x="-197" y="1609"/>
+      <point x="-138" y="1590" type="qcurve"/>
+      <point x="-74" y="1570"/>
+      <point x="-9" y="1570" type="qcurve"/>
+      <point x="58" y="1570"/>
+      <point x="122" y="1590" type="qcurve"/>
+      <point x="181" y="1608"/>
+      <point x="205" y="1638" type="qcurve"/>
+      <point x="284" y="1638" type="line"/>
+      <point x="253" y="1566"/>
+      <point x="180" y="1530" type="qcurve"/>
+      <point x="103" y="1492"/>
+      <point x="-9" y="1492" type="qcurve"/>
+      <point x="-44" y="1492"/>
+      <point x="-75" y="1496" type="qcurve"/>
+      <point x="-193" y="1510"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 2 values pushed */
+10 -16
+PUSHB[ ]	/* 4 values pushed */
+22 31 52 4
+PUSHW[ ]	/* 1 value pushed */
+-16
+PUSHB[ ]	/* 5 values pushed */
+22 31 52 11 2
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 19 values pushed */
+35 40 52 2 128 240 7 1 7 128 16 3 12 128 11 11 2 128 3
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[11101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+MDRP[00000]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4ae4538bc2091cd8deed536632abb1e853f0c607c3644ea5c66cdabdb55c67bb6c48c14bae3f8af65da7d4fea12efeaad4b31bee438b4ca04e01ca71861d4c95</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

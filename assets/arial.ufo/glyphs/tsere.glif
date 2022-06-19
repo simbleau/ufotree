@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tsere" format="2">
+  <advance width="682"/>
+  <unicode hex="05B5"/>
+  <outline>
+    <contour>
+      <point x="210" y="-201" type="qcurve"/>
+      <point x="240" y="-201"/>
+      <point x="294" y="-244"/>
+      <point x="294" y="-285" type="qcurve"/>
+      <point x="294" y="-320"/>
+      <point x="246" y="-369"/>
+      <point x="210" y="-369" type="qcurve"/>
+      <point x="186" y="-369"/>
+      <point x="148" y="-346"/>
+      <point x="126" y="-309"/>
+      <point x="126" y="-285" type="qcurve"/>
+      <point x="126" y="-249"/>
+      <point x="174" y="-201"/>
+    </contour>
+    <contour>
+      <point x="472" y="-201" type="qcurve"/>
+      <point x="512" y="-201"/>
+      <point x="556" y="-254"/>
+      <point x="556" y="-285" type="qcurve"/>
+      <point x="556" y="-309"/>
+      <point x="534" y="-346"/>
+      <point x="496" y="-369"/>
+      <point x="472" y="-369" type="qcurve"/>
+      <point x="450" y="-369"/>
+      <point x="413" y="-349"/>
+      <point x="388" y="-311"/>
+      <point x="388" y="-285" type="qcurve"/>
+      <point x="388" y="-263"/>
+      <point x="407" y="-226"/>
+      <point x="446" y="-201"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+13 0
+PUSHW[ ]	/* 1 value pushed */
+723
+PUSHB[ ]	/* 3 values pushed */
+20 6 16
+PUSHW[ ]	/* 1 value pushed */
+723
+PUSHB[ ]	/* 3 values pushed */
+24 106 10
+PUSHW[ ]	/* 1 value pushed */
+723
+PUSHB[ ]	/* 4 values pushed */
+3 3 29 28
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[11110]	/* MoveIndirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a2e603e6bfead45b20faf90f75250596c2a77016cfbe4961bbe98c0badb93d30cb80759119c94a37749b76225898a3b02f78288056cf7c8502a11865af7325be</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

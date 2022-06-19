@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi" format="2">
+  <advance width="1413"/>
+  <unicode hex="03C0"/>
+  <outline>
+    <contour>
+      <point x="505" y="916" type="line"/>
+      <point x="505" y="0" type="line"/>
+      <point x="325" y="0" type="line"/>
+      <point x="325" y="916" type="line"/>
+      <point x="45" y="916" type="line"/>
+      <point x="45" y="1062" type="line"/>
+      <point x="1369" y="1062" type="line"/>
+      <point x="1369" y="916" type="line"/>
+      <point x="1127" y="916" type="line"/>
+      <point x="1127" y="0" type="line"/>
+      <point x="947" y="0" type="line"/>
+      <point x="947" y="916" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 22 values pushed */
+15 13 47 13 2 10 10 2 10 8 0 4 43 5 6 11 37 9 0 37 2 9
+PUSHW[ ]	/* 1 value pushed */
+-24
+PUSHB[ ]	/* 5 values pushed */
+16 16 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 5 values pushed */
+13 13 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-14
+PUSHB[ ]	/* 5 values pushed */
+12 12 2 85 9
+PUSHW[ ]	/* 1 value pushed */
+-19
+PUSHB[ ]	/* 5 values pushed */
+12 12 6 85 9
+PUSHW[ ]	/* 1 value pushed */
+-4
+NPUSHB[ ]	/* 20 values pushed */
+13 13 6 85 9 10 15 15 6 85 9 38 16 16 6 85 9 66 6 2
+PUSHW[ ]	/* 1 value pushed */
+-24
+PUSHB[ ]	/* 5 values pushed */
+15 16 2 85 2
+PUSHW[ ]	/* 1 value pushed */
+-12
+NPUSHB[ ]	/* 11 values pushed */
+13 13 2 85 2 10 11 11 2 85 2
+PUSHW[ ]	/* 1 value pushed */
+-18
+NPUSHB[ ]	/* 11 values pushed */
+11 11 6 85 2 8 12 12 6 85 2
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 5 values pushed */
+13 13 6 85 2
+PUSHW[ ]	/* 1 value pushed */
+-22
+PUSHB[ ]	/* 5 values pushed */
+15 15 6 85 2
+PUSHW[ ]	/* 1 value pushed */
+-32
+NPUSHB[ ]	/* 13 values pushed */
+16 16 6 85 2 66 5 6 196 13 5 124 12
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00100]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00100]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1413l505+916l505+0l325+0l325+916l45+916l45+1062l1369+1062l1369+916l1127+916l1127+0l947+0l947+916|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

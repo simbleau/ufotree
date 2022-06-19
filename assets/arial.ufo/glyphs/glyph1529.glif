@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1529" format="2">
+  <advance width="807"/>
+  <outline>
+    <component base="afii62965" identifier="component0"/>
+    <component base="glyph1646" xOffset="-15" yOffset="1865" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+4 3 2 51
+PUSHW[ ]	/* 1 value pushed */
+-128
+PUSHB[ ]	/* 4 values pushed */
+58 255 52 51
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+61 62 52 51
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+39 57 52 51
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+33 36 52 51
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 17 values pushed */
+18 20 52 0 51 80 51 96 51 3 0 51 51 10 10 65 40
+PUSHW[ ]	/* 1 value pushed */
+-48
+PUSHB[ ]	/* 4 values pushed */
+55 255 52 39
+PUSHW[ ]	/* 1 value pushed */
+-48
+PUSHB[ ]	/* 4 values pushed */
+55 255 52 38
+PUSHW[ ]	/* 1 value pushed */
+-48
+PUSHB[ ]	/* 4 values pushed */
+55 255 52 39
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 4 values pushed */
+29 39 52 39
+PUSHW[ ]	/* 1 value pushed */
+-32
+NPUSHB[ ]	/* 38 values pushed */
+18 28 52 20 39 36 39 2 25 34 1 6 34 115 35 115 36 115 37 230 38 246 38 6 4 3 2 223 50 1 95 50 111 50 224 50 3 50
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 9 values pushed */
+14 16 52 50 64 18 22 52 50
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+24 28 52 50
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+60 61 52 50
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 10 values pushed */
+70 255 52 50 64 73 53 50 1 31
+PUSHW[ ]	/* 1 value pushed */
+-128
+PUSHB[ ]	/* 4 values pushed */
+100 255 52 31
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+42 99 52 31
+PUSHW[ ]	/* 1 value pushed */
+-32
+PUSHB[ ]	/* 4 values pushed */
+29 41 52 31
+PUSHW[ ]	/* 1 value pushed */
+-40
+PUSHB[ ]	/* 5 values pushed */
+25 28 52 0 31
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHC[1]	/* ShiftContourByLastPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b9790820402d813e337aed6bd7e77d04e25d80c2fd8cd820962e8f181fd8726e08897a664935e43867af62bce8aefb78b3f8bced3bc6838b0a33c54e6a35cca0</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

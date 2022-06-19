@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFB1E" format="2">
+  <unicode hex="FB1E"/>
+  <outline>
+    <contour>
+      <point x="173" y="1510" type="qcurve"/>
+      <point x="296" y="1510" type="line"/>
+      <point x="281" y="1385"/>
+      <point x="128" y="1251"/>
+      <point x="1" y="1251" type="qcurve"/>
+      <point x="-127" y="1251"/>
+      <point x="-280" y="1384"/>
+      <point x="-295" y="1510" type="qcurve"/>
+      <point x="-172" y="1510" type="line"/>
+      <point x="-158" y="1442"/>
+      <point x="-75" y="1375"/>
+      <point x="-5" y="1375" type="qcurve"/>
+      <point x="76" y="1375"/>
+      <point x="159" y="1440"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 5 values pushed */
+1 671 0 7 671
+PUSHB[ ]	/* 4 values pushed */
+8 0 8 11
+PUSHW[ ]	/* 2 values pushed */
+671 4
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MDRP[11110]	/* MoveDirectRelPt */
+MDRP[00000]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MDRP[11110]	/* MoveDirectRelPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5bb5ac86362149821081da1aac60f057092d1425cd1a36ac0893106bb7a82eabd1f076269bba71a55255da1959fec5c10a5abb7d32208e1bb8c639531563bed1</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

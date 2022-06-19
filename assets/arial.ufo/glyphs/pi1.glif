@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi1" format="2">
+  <advance width="1124"/>
+  <outline>
+    <contour>
+      <point x="0" y="1063" type="line"/>
+      <point x="1124" y="1063" type="line"/>
+      <point x="1124" y="905" type="line"/>
+      <point x="962" y="905" type="line"/>
+      <point x="962" y="0" type="line"/>
+      <point x="773" y="0" type="line"/>
+      <point x="773" y="905" type="line"/>
+      <point x="347" y="905" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="159" y="0" type="line"/>
+      <point x="159" y="905" type="line"/>
+      <point x="0" y="905" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 30 values pushed */
+6 7 2 11 43 1 0 6 8 5 10 6 5 37 3 4 146 1 26 13 7 8 37 10 9 146 0 25 12 246
+PUSHW[ ]	/* 2 values pushed */
+662 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[10100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[10100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1124l0+1063l1124+1063l1124+905l962+905l962+0l773+0l773+905l347+905l347+0l159+0l159+905l0+905|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

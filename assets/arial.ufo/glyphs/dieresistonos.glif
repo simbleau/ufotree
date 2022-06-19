@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresistonos" format="2">
+  <advance width="682"/>
+  <unicode hex="0385"/>
+  <outline>
+    <contour>
+      <point x="347" y="1507" type="line"/>
+      <point x="533" y="1507" type="line"/>
+      <point x="333" y="1230" type="line"/>
+      <point x="216" y="1230" type="line"/>
+    </contour>
+    <contour>
+      <point x="532" y="1422" type="line"/>
+      <point x="705" y="1422" type="line"/>
+      <point x="705" y="1230" type="line"/>
+      <point x="532" y="1230" type="line"/>
+    </contour>
+    <contour>
+      <point x="-22" y="1422" type="line"/>
+      <point x="151" y="1422" type="line"/>
+      <point x="151" y="1230" type="line"/>
+      <point x="-22" y="1230" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 56 values pushed */
+4 160 6 9 160 11 64 6 11 0 3 1 144 3 1 3 135 128 0 3 5 159 7 7 0 8 159 80 10 96 10 2 10 10 0 3 117 240 2 1 2 64 44 47 52 2 197 1 160 95 0 1 80 0 1 0
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[10110]	/* MoveIndirectRelPt */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MIRP[11101]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+ALIGNRP[ ]	/* AlignRelativePt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SMD[ ]	/* SetMinimumDistance */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w682l347+1507l533+1507l333+1230l216+1230|l532+1422l705+1422l705+1230l532+1230|l-22+1422l151+1422l151+1230l-22+1230|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta" format="2">
+  <advance width="1593"/>
+  <unicode hex="0398"/>
+  <outline>
+    <contour>
+      <point x="96" y="714" type="qcurve"/>
+      <point x="96" y="1080"/>
+      <point x="490" y="1492"/>
+      <point x="798" y="1492" type="qcurve"/>
+      <point x="1107" y="1492"/>
+      <point x="1498" y="1073"/>
+      <point x="1498" y="731" type="qcurve"/>
+      <point x="1498" y="391"/>
+      <point x="1104" y="-25"/>
+      <point x="797" y="-25" type="qcurve"/>
+      <point x="576" y="-25"/>
+      <point x="243" y="196"/>
+      <point x="96" y="543"/>
+    </contour>
+    <contour>
+      <point x="296" y="711" type="qcurve"/>
+      <point x="296" y="460"/>
+      <point x="568" y="141"/>
+      <point x="796" y="141" type="qcurve"/>
+      <point x="1020" y="141"/>
+      <point x="1298" y="456"/>
+      <point x="1298" y="732" type="qcurve"/>
+      <point x="1298" y="1012"/>
+      <point x="1018" y="1325"/>
+      <point x="799" y="1325" type="qcurve"/>
+      <point x="584" y="1325"/>
+      <point x="296" y="1031"/>
+    </contour>
+    <contour>
+      <point x="507" y="647" type="line"/>
+      <point x="507" y="819" type="line"/>
+      <point x="1087" y="819" type="line"/>
+      <point x="1087" y="647" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 105 values pushed */
+108 8 109 10 108 15 106 17 99 21 99 23 6 16 14 16 18 31 20 31 24 99 2 99 4 6 106 14 99 18 100 20 107 24 152 2 150 4 6 31 21 16 23 109 1 98 5 99 7 106 11 111 12 7 16 2 31 4 31 8 18 10 16 15 31 17 32 30 7 58 8 27 30 79 25 95 25 127 25 143 25 4 239 25 1 25 25 9 22 30 3 3 16 30 9 9 28 101 19 25 101 13 19 38 6
+PUSHW[ ]	/* 1 value pushed */
+-24
+PUSHB[ ]	/* 5 values pushed */
+16 16 2 85 6
+PUSHW[ ]	/* 1 value pushed */
+-18
+PUSHB[ ]	/* 5 values pushed */
+13 13 2 85 6
+PUSHW[ ]	/* 1 value pushed */
+-16
+PUSHB[ ]	/* 5 values pushed */
+12 12 2 85 6
+PUSHW[ ]	/* 1 value pushed */
+-7
+PUSHB[ ]	/* 5 values pushed */
+11 11 6 85 6
+PUSHW[ ]	/* 1 value pushed */
+-12
+PUSHB[ ]	/* 5 values pushed */
+13 13 6 85 6
+PUSHW[ ]	/* 1 value pushed */
+-6
+NPUSHB[ ]	/* 38 values pushed */
+12 12 6 85 32 6 128 6 2 128 30 1 6 26 30 13 38 0 6 11 11 6 85 0 6 12 12 6 85 32 0 1 0 25 29 99 92 24
+CALL[ ]	/* CallFunction */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00110]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+RS[ ]	/* ReadStore */
+JROF[ ]	/* JumpRelativeOnFalse */
+NPUSHB[ ]	/* 44 values pushed */
+1 24 11 37 17 8 19 33 1 15 10 13 33 0 21 4 19 33 1 23 2 13 33 0 18 7 16 33 0 14 12 16 33 0 20 5 22 33 1 24 1 22 33 1
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPRGON[ ]	/* FlipRangeOn */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>cdbdd3cd13d9b01f3cd9128d8707b7ea36ee67f8fd0d9521403f6da7207d27d8a29d1502a917843d20eb4c605251c63630244cfc53d6a643fe2a6874d5be033d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

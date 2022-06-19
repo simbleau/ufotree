@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ucircumflex" format="2">
+  <advance width="1139"/>
+  <unicode hex="00FB"/>
+  <outline>
+    <component base="u" identifier="component0"/>
+    <component base="circumflex" xOffset="220" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+1 1 1 31
+PUSHW[ ]	/* 2 values pushed */
+546 41
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  PUSHB[ ]	/* 6 values pushed */
+  0 27 30 11 22 65
+  CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+  PUSHB[ ]	/* 8 values pushed */
+  143 25 1 25 17 35 72 43
+  CALL[ ]	/* CallFunction */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+EIF[ ]	/* EndIf */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>864ed104c00abae14b5c2abf039ebeef6558d681aef231a67c50c54851b831b23c4fa7c8c4ef2c42a7f06ec183a242723b02f0cd9ed429bc2792314fe6d2a2da</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

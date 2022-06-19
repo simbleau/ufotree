@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1293" format="2">
+  <outline>
+    <contour>
+      <point x="253" y="1844" type="line"/>
+      <point x="22" y="1666" type="line"/>
+      <point x="-108" y="1666" type="line"/>
+      <point x="27" y="1844" type="line"/>
+    </contour>
+    <contour>
+      <point x="258" y="1496" type="line"/>
+      <point x="123" y="1496" type="line"/>
+      <point x="123" y="1643" type="line"/>
+      <point x="258" y="1643" type="line"/>
+    </contour>
+    <contour>
+      <point x="-123" y="1496" type="line"/>
+      <point x="-258" y="1496" type="line"/>
+      <point x="-258" y="1643" type="line"/>
+      <point x="-123" y="1643" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+3 1 2 0
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+21 22 52 0
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 37 values pushed */
+12 20 52 0 7 5 64 11 20 52 63 5 1 5 2 64 11 28 52 2 10 8 8 5 64 35 37 52 5 64 21 22 52 5 10 7 1
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 57 values pushed */
+10 17 52 1 0 64 136 137 52 0 64 79 115 52 0 64 62 69 52 0 64 46 58 52 15 0 1 0 64 36 37 52 47 0 1 0 64 26 30 52 240 0 1 0 64 18 20 52 127 0 1 0 64 9 13 52 0
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+CALL[ ]	/* CallFunction */
+DELTAP3[ ]	/* DeltaExceptionP3 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MDRP[11101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+MDRP[10110]	/* MoveDirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDRP[11101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[1]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+MDRP[00110]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+MDRP[11110]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+MDRP[11101]	/* MoveDirectRelPt */
+MDRP[00110]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l253+1844l22+1666l-108+1666l27+1844|l258+1496l123+1496l123+1643l258+1643|l-123+1496l-258+1496l-258+1643l-123+1643|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

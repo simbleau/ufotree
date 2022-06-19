@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFBDA" format="2">
+  <advance width="885"/>
+  <unicode hex="FBDA"/>
+  <outline>
+    <component base="afii57448" identifier="component0"/>
+    <component base="glyph1334" xOffset="400" yOffset="-270" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 2 values pushed */
+2 43
+PUSHW[ ]	/* 1 value pushed */
+-64
+NPUSHB[ ]	/* 11 values pushed */
+18 24 52 0 43 43 0 0 65 2 45
+PUSHW[ ]	/* 1 value pushed */
+-128
+NPUSHB[ ]	/* 18 values pushed */
+16 17 52 64 45 127 45 2 15 45 63 45 96 45 191 45 4 45
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8873ba4e265a12b0c74217f8eb0061a6fd9bc5c49593393e93443673922d3076fe996ed3bb025f97fe14da6b1eaf8f737b39c516e63ef1ca31542c5a6cac7e97</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

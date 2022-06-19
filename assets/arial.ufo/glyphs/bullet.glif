@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="717"/>
+  <unicode hex="2022"/>
+  <outline>
+    <contour>
+      <point x="109" y="718" type="qcurve"/>
+      <point x="109" y="823"/>
+      <point x="258" y="971"/>
+      <point x="362" y="971" type="qcurve"/>
+      <point x="467" y="971"/>
+      <point x="616" y="823"/>
+      <point x="616" y="718" type="qcurve"/>
+      <point x="616" y="613"/>
+      <point x="467" y="464"/>
+      <point x="362" y="464" type="qcurve"/>
+      <point x="258" y="464"/>
+      <point x="109" y="613"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 2 values pushed */
+3 339
+NPUSHB[ ]	/* 14 values pushed */
+9 6 204 32 0 48 0 2 0 117 12 87 167 24
+CALL[ ]	/* CallFunction */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w717q109+718o109+823o258+971q362+971o467+971o616+823q616+718o616+613o467+464q362+464o258+464o109+613|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

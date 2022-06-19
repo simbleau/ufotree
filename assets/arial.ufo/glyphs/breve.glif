@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breve" format="2">
+  <advance width="682"/>
+  <unicode hex="02D8"/>
+  <outline>
+    <contour>
+      <point x="514" y="1464" type="qcurve"/>
+      <point x="637" y="1464" type="line"/>
+      <point x="622" y="1339"/>
+      <point x="469" y="1205"/>
+      <point x="342" y="1205" type="qcurve"/>
+      <point x="214" y="1205"/>
+      <point x="61" y="1338"/>
+      <point x="46" y="1464" type="qcurve"/>
+      <point x="169" y="1464" type="line"/>
+      <point x="183" y="1396"/>
+      <point x="266" y="1329"/>
+      <point x="336" y="1329" type="qcurve"/>
+      <point x="417" y="1329"/>
+      <point x="500" y="1394"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 4 values pushed */
+85 2 1 11
+PUSHW[ ]	/* 1 value pushed */
+671
+NPUSHB[ ]	/* 12 values pushed */
+16 4 127 4 2 4 7 8 8 0 0 8
+PUSHW[ ]	/* 4 values pushed */
+671 7 0 671
+NPUSHB[ ]	/* 15 values pushed */
+64 1 189 4 236 32 7 25 14 16 4 1 155 65 24
+CALL[ ]	/* CallFunction */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+SMD[ ]	/* SetMinimumDistance */
+RTHG[ ]	/* RoundToHalfGrid */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+SMD[ ]	/* SetMinimumDistance */
+RTG[ ]	/* RoundToGrid */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIRP[01101]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ebb2055fe4233d92d94b7ea8ddec2e777645624bb43e2c2fc878f175bc6857964507f0bdaa636d37e51c328763471bc500cb1116af1ef5dfd1b0884a4649ddbc</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

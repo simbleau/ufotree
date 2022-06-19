@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="768"/>
+  <unicode hex="0165"/>
+  <outline>
+    <contour>
+      <point x="581" y="1281" type="line"/>
+      <point x="581" y="1466" type="line"/>
+      <point x="765" y="1466" type="line"/>
+      <point x="765" y="1281" type="line"/>
+      <point x="765" y="1180"/>
+      <point x="693" y="1055"/>
+      <point x="615" y="1021" type="qcurve"/>
+      <point x="570" y="1089" type="line"/>
+      <point x="621" y="1112"/>
+      <point x="670" y="1199"/>
+      <point x="672" y="1281" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="527" y="161" type="qcurve"/>
+      <point x="553" y="2" type="line"/>
+      <point x="477" y="-14"/>
+      <point x="417" y="-14" type="qcurve"/>
+      <point x="319" y="-14"/>
+      <point x="211" y="48"/>
+      <point x="167" y="149"/>
+      <point x="167" y="311" type="qcurve"/>
+      <point x="167" y="922" type="line"/>
+      <point x="35" y="922" type="line"/>
+      <point x="35" y="1062" type="line"/>
+      <point x="167" y="1062" type="line"/>
+      <point x="167" y="1325" type="line"/>
+      <point x="346" y="1433" type="line"/>
+      <point x="346" y="1062" type="line"/>
+      <point x="527" y="1062" type="line"/>
+      <point x="527" y="922" type="line"/>
+      <point x="346" y="922" type="line"/>
+      <point x="346" y="301" type="line"/>
+      <point x="346" y="224"/>
+      <point x="365" y="180"/>
+      <point x="408" y="154"/>
+      <point x="448" y="154" type="qcurve"/>
+      <point x="478" y="154"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 42 values pushed */
+111 5 108 7 127 7 142 7 4 96 1 96 6 96 7 112 1 112 4 114 7 128 1 128 4 8 0 23 24 21 6 10 0 11 13 27 12 14 11 20 33 7
+PUSHW[ ]	/* 1 value pushed */
+557
+NPUSHB[ ]	/* 36 values pushed */
+1 7 183 6 0 64 2 2 1 0 7 51 1 10 145 0 64 1 64 2 26 36 27 20 43 26 21 6 33 28 14 11 26 12 34 27
+PUSHW[ ]	/* 1 value pushed */
+560
+PUSHB[ ]	/* 7 values pushed */
+24 29 37 23 20 69 18
+PUSHW[ ]	/* 1 value pushed */
+-14
+PUSHB[ ]	/* 5 values pushed */
+16 16 2 85 18
+PUSHW[ ]	/* 1 value pushed */
+-10
+PUSHB[ ]	/* 5 values pushed */
+14 15 2 85 18
+PUSHW[ ]	/* 1 value pushed */
+-4
+PUSHB[ ]	/* 5 values pushed */
+12 12 2 85 18
+PUSHW[ ]	/* 1 value pushed */
+-20
+PUSHB[ ]	/* 5 values pushed */
+16 16 6 85 18
+PUSHW[ ]	/* 1 value pushed */
+-24
+PUSHB[ ]	/* 5 values pushed */
+15 15 6 85 18
+PUSHW[ ]	/* 1 value pushed */
+-10
+PUSHB[ ]	/* 5 values pushed */
+13 13 6 85 18
+PUSHW[ ]	/* 1 value pushed */
+-12
+NPUSHB[ ]	/* 10 values pushed */
+12 12 6 85 0 18 1 18 25 35
+PUSHW[ ]	/* 1 value pushed */
+310
+PUSHB[ ]	/* 2 values pushed */
+102 24
+CALL[ ]	/* CallFunction */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10100]	/* MoveIndirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[00100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[1]	/* SetFPVectorToAxis */
+FLIPOFF[ ]	/* SetAutoFlipOff */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10110]	/* MoveIndirectRelPt */
+FLIPON[ ]	/* SetAutoFlipOn */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00100]	/* MoveIndirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SVTCA[1]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFPVectorToAxis */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDRP[01001]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>94256e135cc9f04b297dcb76cb5dcf9a8ef3c092d2b8bbed92edf6010d3e57ea80358d69e59089d9d8f0e63a3c1cbad1b0629c3a8b9726be3dba88a6185e939d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

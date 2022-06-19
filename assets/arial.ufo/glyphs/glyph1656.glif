@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glyph1656" format="2">
+  <advance width="1114"/>
+  <outline>
+    <component base="afii62840" identifier="component0"/>
+    <component base="glyph1333" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHB[ ]	/* 14 values pushed */
+3 45 3 46 3 47 19 45 19 46 19 47 6 48
+PUSHW[ ]	/* 1 value pushed */
+-40
+PUSHB[ ]	/* 4 values pushed */
+12 22 52 47
+PUSHW[ ]	/* 1 value pushed */
+-40
+PUSHB[ ]	/* 4 values pushed */
+12 22 52 46
+PUSHW[ ]	/* 1 value pushed */
+-40
+PUSHB[ ]	/* 4 values pushed */
+12 22 52 45
+PUSHW[ ]	/* 1 value pushed */
+-40
+PUSHB[ ]	/* 4 values pushed */
+12 22 52 44
+PUSHW[ ]	/* 1 value pushed */
+-40
+PUSHB[ ]	/* 4 values pushed */
+12 22 52 2
+PUSHW[ ]	/* 1 value pushed */
+-11
+PUSHB[ ]	/* 5 values pushed */
+91 91 118 118 65
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>993b7edf806736743782123fef3e3d9d99bd1bbaa8dd826382f7a0fcbbe8cbe86e0d410ec79b8079db687a18c8ef102dfbbcf5e9e3a6ccfb0c023927c27fde22</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

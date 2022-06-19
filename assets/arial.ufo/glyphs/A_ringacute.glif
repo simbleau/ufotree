@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aringacute" format="2">
+  <advance width="1366"/>
+  <unicode hex="01FA"/>
+  <outline>
+    <component base="Aring" identifier="component0"/>
+    <component base="acute" xOffset="339" yOffset="586" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHB[ ]	/* 8 values pushed */
+4 39 17 0 72 43 4 39
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+51 54 52 39
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+34 36 52 39
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 4 values pushed */
+30 32 52 39
+PUSHW[ ]	/* 1 value pushed */
+-64
+PUSHB[ ]	/* 7 values pushed */
+16 18 52 175 39 1 39
+SVTCA[0]	/* SetFPVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6 2
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+  NPUSHB[ ]	/* 9 values pushed */
+  0 39 16 39 2 160 39 1 39
+  PUSHW[ ]	/* 1 value pushed */
+  -64
+  PUSHB[ ]	/* 4 values pushed */
+  69 69 52 39
+  PUSHW[ ]	/* 1 value pushed */
+  -64
+  PUSHB[ ]	/* 4 values pushed */
+  44 47 52 39
+  PUSHW[ ]	/* 1 value pushed */
+  -64
+  PUSHB[ ]	/* 3 values pushed */
+  23 25 52
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  CALL[ ]	/* CallFunction */
+  DELTAP1[ ]	/* DeltaExceptionP1 */
+  DELTAP3[ ]	/* DeltaExceptionP3 */
+EIF[ ]	/* EndIf */
+SHC[1]	/* ShiftContourByLastPt */
+SVTCA[1]	/* SetFPVectorToAxis */
+CALL[ ]	/* CallFunction */
+SHC[1]	/* ShiftContourByLastPt */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>439e1efb897f9d135ae5c2c9e1f03e81a0ca260931c37db335f9cf7006091466b1b964cc866d35c9983af4aec3b6ff01a460bb5a6d970bef05da5c0aed6e7982</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>
