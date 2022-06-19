@@ -1,6 +1,5 @@
-// Parser for metainfo.plist'
-use super::Parse;
-use crate::errors::ParseError;
+// Parser for metainfo.plist
+use crate::{errors::ParseError, parsers::Parse};
 
 struct MetaInfo {
     creator: String,
