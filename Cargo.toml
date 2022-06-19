@@ -8,6 +8,7 @@ license = "MIT/Apache-2.0"
 description = "Represent .ufo or .ufoz packages as a read-only tree."
 repository = "https://github.com/simbleau/ufotree"
 readme = "README.md"
+edition = "2021"
 
 [dependencies]
-
+thiserror = "1.0.31"
