@@ -1,5 +1,7 @@
+<img align="right" alt="UFO Logo" width="25%" src="assets/logo.svg">
+
 # UFO Tree
-Represent .ufo or .ufoz packages as a read-only tree.
+Represent a Unified Font Object package as a read-only tree.
 
 # Status
 - [ ] [UFO 1](https://unifiedfontobject.org/versions/ufo1/)
