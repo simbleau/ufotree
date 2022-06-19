@@ -9,6 +9,11 @@ where
     P: AsRef<Path>,
 {
     todo!()
+    // General instructions:
+    // Call loader to get version number (1, 2, 3)
+    // Get parser from version number
+    // Parse with UFO X parser
+    // Return result
 }
 
 pub fn parse_ufoz<P>(zip_path: P) -> Result<models::UfoTree, errors::ParseError>
@@ -16,10 +21,10 @@ where
     P: AsRef<Path>,
 {
     todo!()
-}
-
-#[cfg(test)]
-#[test]
-pub fn it_works() {
-    assert_eq!(true, true);
+    // General instructions:
+    // Unzip folder
+    // Call loader to get version number (1, 2, 3)
+    // Get parser from version number
+    // Parse with UFO X parser
+    // Return result
 }
