@@ -12,4 +12,4 @@ edition = "2021"
 include = ['src/']
 
 [dependencies]
-thiserror = "1.0.31"
+thiserror = "1.0.32"
